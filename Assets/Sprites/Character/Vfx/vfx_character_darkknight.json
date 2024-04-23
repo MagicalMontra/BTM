@@ -1,0 +1,152 @@
+{
+"skeleton": {
+	"hash": "ovlf4bQPMAk",
+	"spine": "4.1.17",
+	"x": -8.41,
+	"y": -4.12,
+	"width": 184,
+	"height": 522,
+	"images": "",
+	"audio": "C:/2D_Spine/BoosterMath"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "vfx/vfx_character_darkknight", "parent": "root" }
+],
+"slots": [
+	{ "name": "vfx/vfx_character_darkknight", "bone": "vfx/vfx_character_darkknight", "attachment": "vfx/vfx_character_darkknight" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"vfx/vfx_character_darkknight": {
+				"vfx/vfx_character_darkknight": { "x": 83.59, "y": 256.88, "width": 184, "height": 522 }
+			}
+		}
+	}
+],
+"animations": {
+	"particle_spawn": {
+		"slots": {
+			"vfx/vfx_character_darkknight": {
+				"rgba": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ff5300ff" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.5, "name": "vfx/vfx_character_darkknight" }
+				]
+			}
+		},
+		"bones": {
+			"vfx/vfx_character_darkknight": {
+				"rotate": [
+					{
+						"time": 0.5,
+						"value": 125.56,
+						"curve": [ 0.505, 125.56, 0.522, 98.91 ]
+					},
+					{
+						"time": 0.5333,
+						"value": 95.25,
+						"curve": [ 0.541, 92.84, 0.558, 85.82 ]
+					},
+					{
+						"time": 0.5667,
+						"value": 79.29,
+						"curve": [ 0.575, 72.81, 0.592, 73.15 ]
+					},
+					{
+						"time": 0.6,
+						"value": 68.69,
+						"curve": [ 0.62, 57.6, 0.656, 59.65 ]
+					},
+					{
+						"time": 0.6667,
+						"value": 58.01,
+						"curve": [ 0.741, 47.42, 0.794, 16.04 ]
+					},
+					{ "time": 0.8667, "value": 16.04 }
+				],
+				"translatex": [
+					{
+						"time": 0.5,
+						"value": 725.55,
+						"curve": [ 0.508, 725.55, 0.525, 856.92 ]
+					},
+					{
+						"time": 0.5333,
+						"value": 907.52,
+						"curve": [ 0.542, 956.8, 0.561, 1141.74 ]
+					},
+					{
+						"time": 0.5667,
+						"value": 1187.87,
+						"curve": [ 0.574, 1250.36, 0.592, 1344 ]
+					},
+					{
+						"time": 0.6,
+						"value": 1362.07,
+						"curve": [ 0.617, 1398.21, 0.65, 1299.44 ]
+					},
+					{
+						"time": 0.6667,
+						"value": 1344.04,
+						"curve": [ 0.7, 1434.3, 0.734, 1393.42 ]
+					},
+					{
+						"time": 0.7667,
+						"value": 1378.18,
+						"curve": [ 0.809, 1359.31, 0.825, 1411.39 ]
+					},
+					{ "time": 0.8667, "value": 1411.39 }
+				],
+				"translatey": [
+					{
+						"time": 0.5,
+						"value": 297.19,
+						"curve": [ 0.508, 297.19, 0.525, 419.75 ]
+					},
+					{
+						"time": 0.5333,
+						"value": 440.58,
+						"curve": [ 0.542, 461.42, 0.558, 337.92 ]
+					},
+					{
+						"time": 0.5667,
+						"value": 322.79,
+						"curve": [ 0.575, 307.86, 0.592, 177.53 ]
+					},
+					{
+						"time": 0.6,
+						"value": 144.62,
+						"curve": [ 0.617, 78.78, 0.65, 11.85 ]
+					},
+					{
+						"time": 0.6667,
+						"value": -8.58,
+						"curve": [ 0.7, -49.93, 0.734, -47.45 ]
+					},
+					{
+						"time": 0.7667,
+						"value": -88.39,
+						"curve": [ 0.809, -139.12, 0.825, -121.3 ]
+					},
+					{ "time": 0.8667, "value": -121.3 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 0.233, "y": 0.291 },
+					{ "time": 0.5667, "x": 0.834, "y": 0.639 },
+					{ "time": 0.6, "x": 1.151, "y": 1.628 },
+					{ "time": 0.6667, "x": 1.609, "y": 1.614 },
+					{ "time": 0.8667, "x": 0.01, "y": 0.568 }
+				]
+			}
+		}
+	}
+}
+}

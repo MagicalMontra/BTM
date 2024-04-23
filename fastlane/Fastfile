@@ -1,0 +1,42 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  lane :beta do
+      api_key = app_store_connect_api_key(
+        key_id: ENV["KEY_ID"],
+        issuer_id: ENV["KEY_ISSUER_ID"],
+        key_filepath: ENV["KEY_FILEPATH"]
+      )
+
+      upload_to_testflight(
+        ipa: ENV["BINARY"],
+        skip_waiting_for_build_processing: true,
+        apple_id: "1592462079",
+        api_key: api_key
+      )
+  end
+end
+
+platform :android do
+  lane :firebase do
+    firebase_app_distribution(
+      app: '1:1045281652067:android:c971df0c233a4306156756',
+      apk_path: ENV["BINARY"],
+    )
+  end
+end

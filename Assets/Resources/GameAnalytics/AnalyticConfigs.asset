@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1b956eef497400888101476cb3cace, type: 3}
+  m_Name: AnalyticConfigs
+  m_EditorClassIdentifier: 
+  developmentConfigs:
+  - Platform: 11
+    GameKey: cbdd8c328590bcfeab2f87b7e1828f50
+    SecretKey: cc3542fb3b0ef169444859e7b08a953511756e29
+  - Platform: 8
+    GameKey: e8fe17bded10b606e8a23fa7f5131b86
+    SecretKey: e0e5a62591212d1895663a2186f2eb17ee4c4958
+  - Platform: 17
+    GameKey: 0cb31f3351a72918598e762ff05c25f5
+    SecretKey: ef845e22a9080e4cd2107cec6bc138d3a59178e7
+  productionConfigs:
+  - Platform: 11
+    GameKey: cbdd8c328590bcfeab2f87b7e1828f50
+    SecretKey: cc3542fb3b0ef169444859e7b08a953511756e29
+  - Platform: 8
+    GameKey: e8fe17bded10b606e8a23fa7f5131b86
+    SecretKey: e0e5a62591212d1895663a2186f2eb17ee4c4958
+  - Platform: 17
+    GameKey: 0cb31f3351a72918598e762ff05c25f5
+    SecretKey: ef845e22a9080e4cd2107cec6bc138d3a59178e7

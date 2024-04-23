@@ -1,0 +1,964 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: DailyReward/DailyReawardElement_Day
+      TermType: 0
+      Description: 'Example: "DAY 1"'
+      Languages:
+      - DAY {[DAY]}
+      - Jour {[DAY]}
+      - Giorno {[DAY]}
+      - Tag {[DAY]}
+      - "D\xEDa {[DAY]}"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: DailyReward/DailyReward
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily Reward
+      - "R\xE9compense Quotidienne"
+      - Ricompensa Quotidiana
+      - "T\xE4gliche Belohnung"
+      - Recompensa Diaria
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: DailyReward/DailyRewardElement_Amount
+      TermType: 0
+      Description: Amount of reward player will gain. Example "x 150"
+      Languages:
+      - x {[AMOUNT]}
+      - x {[AMOUNT]}
+      - x {[AMOUNT]}
+      - x {[AMOUNT]}
+      - x {[AMOUNT]}
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulty/Easy
+      TermType: 0
+      Description: 
+      Languages:
+      - Easy
+      - Facile
+      - Facile
+      - Einfach
+      - "F\xE1cil"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulty/Hard
+      TermType: 0
+      Description: 
+      Languages:
+      - Hard
+      - Difficile
+      - Difficile
+      - Schwer
+      - Dura
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulty/Normal
+      TermType: 0
+      Description: 
+      Languages:
+      - Medium
+      - Normale
+      - Medio
+      - Normal
+      - Medio
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulty/Select
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose Difficulty
+      - "Choisis la difficult\xE9"
+      - "Scegli la difficolt\xE0"
+      - "Schwierigkeitsgrad W\xE4hlen"
+      - Elige la dificultad
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font/FONT_MPLUS_BLACK
+      TermType: 9
+      Description: 
+      Languages:
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font/FONT_MPLUS_BOLD
+      TermType: 9
+      Description: 
+      Languages:
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font/FONT_MPLUS_EXTRABOLD
+      TermType: 9
+      Description: 
+      Languages:
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font/MPLUSROUNDED1C-BLACK SDF
+      TermType: 9
+      Description: 
+      Languages:
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      - MPLUSROUNDED1C-BLACK SDF
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font/MPLUSROUNDED1C-BOLD SDF
+      TermType: 9
+      Description: 
+      Languages:
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      - MPLUSROUNDED1C-BOLD SDF
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font/MPLUSROUNDED1C-EXTRABOLD SDF
+      TermType: 9
+      Description: 
+      Languages:
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      - MPLUSROUNDED1C-EXTRABOLD SDF
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/CONGRATULATIONS!
+      TermType: 0
+      Description: 
+      Languages:
+      - CONGRATULATIONS!
+      - "F\xE9licitations!"
+      - Congratulazioni!
+      - "Gl\xFCckw\xFCnsch!"
+      - "\xA1Felicidades!"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - Annuler
+      - Annulla
+      - <size=62>Abbrechen</size>
+      - <size=68>Cancelar</size>
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Claim
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - "R\xE9clamer"
+      - Reclamo
+      - <size=92>Einfordern</size>
+      - Reclamar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Close
+      TermType: 0
+      Description: 
+      Languages:
+      - Close
+      - Fermer
+      - Chiudere
+      - "<size=66>Schlie\xDFen</size>"
+      - Cerca
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/CollectReward
+      TermType: 0
+      Description: 
+      Languages:
+      - Collect Reward
+      - "<size=40>R\xE9colter votre R\xE9compense</size>"
+      - <size=40>Raccogliere La Ricompensa</size>
+      - Belohnung Abholen
+      - Recoger La Recompensa
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Gifts
+      TermType: 0
+      Description: 
+      Languages:
+      - Gifts
+      - Cadeaux
+      - I Regali
+      - Geschenke
+      - Regalos
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/HighScores
+      TermType: 0
+      Description: 
+      Languages:
+      - High Scores
+      - Meilleurs Scores
+      - Miglior Punteggio
+      - Highscore
+      - Puntuaciones Altas
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Home
+      TermType: 0
+      Description: 
+      Languages:
+      - Home
+      - Accueil
+      - Casa
+      - Home
+      - Hogar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Pause
+      TermType: 0
+      Description: 
+      Languages:
+      - Pause
+      - Pause
+      - Pausa
+      - Pause
+      - Pausa
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Play
+      TermType: 0
+      Description: 
+      Languages:
+      - Play
+      - Jouer
+      - Giocare A
+      - Spielen
+      - "<size=91>Desempe\xF1ar</size>"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/PlayAgain
+      TermType: 0
+      Description: 
+      Languages:
+      - Play Again
+      - Rejouer
+      - <size=72>Gioca Di Nuovo</size>
+      - <size=66>Nochmal Spielen</size>
+      - <size=72>Juega De Nuevo</size>
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Restart
+      TermType: 0
+      Description: 
+      Languages:
+      - Restart
+      - "Red\xE9marrer"
+      - Ricomincia
+      - Neustart
+      - Reiniciar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Resume
+      TermType: 0
+      Description: 
+      Languages:
+      - Resume
+      - Continuer
+      - Continua
+      - <size=92>Fortfahlen</size>
+      - Seguir
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/Tutorial
+      TermType: 0
+      Description: 
+      Languages:
+      - Tutorial
+      - Tutoriel
+      - Tutorial
+      - Tutorial
+      - Tutorial
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Generic/YourHighScore
+      TermType: 0
+      Description: 
+      Languages:
+      - Your high score
+      - Votre meilleur score
+      - "Il tuo punteggio pi\xF9 alto"
+      - Ihr Highscore
+      - "tu puntuaci\xF3n m\xE1s alta"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Language/English
+      TermType: 0
+      Description: 
+      Languages:
+      - English
+      - Anglais
+      - Inglese
+      - Englisch
+      - "Ingl\xE9s"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Language/French
+      TermType: 0
+      Description: 
+      Languages:
+      - French
+      - "Fran\xE7ais"
+      - Francese
+      - "Franz\xF6sisch"
+      - "Franc\xE9s"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Language/German
+      TermType: 0
+      Description: 
+      Languages:
+      - German
+      - Allemand
+      - Tedesco
+      - Deutsch
+      - "Alem\xE1n"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Language/Italian
+      TermType: 0
+      Description: 
+      Languages:
+      - Italian
+      - Italien
+      - Italiano
+      - Italienisch
+      - Italiano
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Language/Spanish
+      TermType: 0
+      Description: 
+      Languages:
+      - Spanish
+      - Espagnol
+      - Spagnolo
+      - Spanisch
+      - "Espa\xF1ol"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Leaderboard/Leaderboard
+      TermType: 0
+      Description: 
+      Languages:
+      - Leaderboard
+      - Classement
+      - Classifica
+      - Rangliste
+      - "Clasificaci\xF3n"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Leaderboard/RankUpAnimText
+      TermType: 0
+      Description: 
+      Languages:
+      - +{[RANK]}
+      - +{[RANK]}
+      - +{[RANK]}
+      - +{[RANK]}
+      - +{[RANK]}
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Result/GameOver
+      TermType: 0
+      Description: 
+      Languages:
+      - Game Over
+      - "Partie Termin\xE9e"
+      - Gioco Finito
+      - Spiel Vorbei
+      - Juego Terminado
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Result/NewHighScore!
+      TermType: 0
+      Description: 
+      Languages:
+      - New High Score!
+      - Nouveau Record!
+      - Nuovo Record!
+      - Neuer Highscore
+      - "\xA1Nuevo Record!"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Result/YouEarned
+      TermType: 0
+      Description: 
+      Languages:
+      - You Earned
+      - Vous avez accumulez
+      - Hai Guadagnato
+      - Sie verdienen
+      - "Usted Gan\xF3"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Result/YourScore
+      TermType: 0
+      Description: 
+      Languages:
+      - Your Score
+      - Votre Score
+      - Il Tuo Punteggio
+      - Ihre Punktzahl
+      - "Tu Puntuaci\xF3n"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Audio
+      TermType: 0
+      Description: 
+      Languages:
+      - Audio
+      - Audio
+      - Audio
+      - Audio
+      - Audio
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Facebook
+      TermType: 0
+      Description: 
+      Languages:
+      - Facebook
+      - Facebook
+      - Facebook
+      - Facebook
+      - Facebook
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Language
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - Langue
+      - Linguaggio
+      - Sprache
+      - Idioma
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Music
+      TermType: 0
+      Description: 
+      Languages:
+      - Music
+      - Musique
+      - Musica
+      - Musik
+      - "M\xFAsica"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Settings
+      TermType: 0
+      Description: 
+      Languages:
+      - Settings
+      - "Param\xE8tres"
+      - Impostazioni
+      - Einstellungen
+      - Ajustes
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Sounds
+      TermType: 0
+      Description: 
+      Languages:
+      - Sounds
+      - Sons
+      - Suoni
+      - Sound
+      - Sonidos
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Support
+      TermType: 0
+      Description: 
+      Languages:
+      - Support
+      - Support
+      - Sostegno
+      - Support
+      - Apoyo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Support & Social Media
+      TermType: 0
+      Description: 
+      Languages:
+      - Support & Social Media
+      - "Assistance Et M\xE9dias Sociaux"
+      - Supporto E Social Media
+      - Support & Soziale Medien
+      - Apoyo Y Redes Sociales
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Terms and Privacy Policy
+      TermType: 0
+      Description: 
+      Languages:
+      - Terms and Privacy Policy
+      - "Termes et Politique de Confidentialit\xE9"
+      - Termini e Informativa sulla privacy
+      - Bedingungen und Datenschutzbestimmungen
+      - "T\xE9rminos y Pol\xEDtica de Privacidad"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Twitter
+      TermType: 0
+      Description: 
+      Languages:
+      - Twitter
+      - Twitter
+      - Twitter
+      - Twitter
+      - Gorjeo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/Characters
+      TermType: 0
+      Description: 
+      Languages:
+      - Characters
+      - Personnages
+      - Personaggi
+      - Charaktere
+      - Caracteres
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/ITEM IN-USE
+      TermType: 0
+      Description: 
+      Languages:
+      - Item In-Use
+      - En cours d'utilisation
+      - Oggetto In Uso
+      - Gegenstan in Gebrauch
+      - "Art\xEDculo En Uso"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/Owned
+      TermType: 0
+      Description: 
+      Languages:
+      - Owned
+      - <size=56>En possession</size>
+      - Posseduto
+      - Im Besitz
+      - Propiedad
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/Shop
+      TermType: 0
+      Description: 
+      Languages:
+      - Shop
+      - Magasin
+      - Negozio
+      - Shop
+      - Tienda
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/Themes
+      TermType: 0
+      Description: 
+      Languages:
+      - Themes
+      - "Th\xE8mes"
+      - Temi
+      - Themen
+      - Temas
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/UNLOCK ITEM?
+      TermType: 0
+      Description: 
+      Languages:
+      - UNLOCK ITEM?
+      - "D\xE9verrouiller?"
+      - Sbloccare L'oggetto?
+      - Item freischalten?
+      - Desbloquear Elemento?
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/USE ITEM NOW?
+      TermType: 0
+      Description: 
+      Languages:
+      - USE ITEM NOW?
+      - Utiliser maintenant?
+      - Utilizzare L'oggetto Ora?
+      - Item jetzt verwenden?
+      - "Usar Art\xEDculo Ahora?"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/Unlock
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock
+      - "<size=45>D\xE9verrouiller</size>"
+      - <size=62>Sbloccare</size>
+      - <size=50>Freischalten</size>
+      - <size=50>Desbloquear</size>
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Shop/UseNow
+      TermType: 0
+      Description: 
+      Languages:
+      - Use Now
+      - Utiliser
+      - <size=59>Usalo Ora</size>
+      - <size=59>Verwenden</size>
+      - <size=59>Usar Ahora</size>
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character01
+      TermType: 0
+      Description: 
+      Languages:
+      - Humble Warrior
+      - Humble Guerrier
+      - Swordsman
+      - "Dem\xFCtiger Krieger"
+      - Swordsman
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character02
+      TermType: 0
+      Description: 
+      Languages:
+      - Lady Luck
+      - Dame Chance
+      - Archer Elf
+      - Lady Luck
+      - Archer Elf
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character03
+      TermType: 0
+      Description: 
+      Languages:
+      - Mage Apprentice
+      - Apprenti Mage
+      - Mage
+      - Magierlehrling
+      - Mage
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character04
+      TermType: 0
+      Description: 
+      Languages:
+      - Stray Raider
+      - Raider Errant
+      - Thief Cat
+      - "Wandernder R\xE4uber"
+      - Thief Cat
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character05
+      TermType: 0
+      Description: 
+      Languages:
+      - Sister Druid
+      - "S\u0153ur Druidesse"
+      - Shaman
+      - Druidenschwester
+      - Shaman
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character06
+      TermType: 0
+      Description: 
+      Languages:
+      - Dark Baron
+      - Baron de l'ombre
+      - Dark Knight
+      - Schattenbaron
+      - Dark Knight
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character07
+      TermType: 0
+      Description: 
+      Languages:
+      - Shade Master
+      - "Ma\xEEtre des T\xE9n\xE8bres"
+      - Warlock
+      - Meister der Dunkelheit
+      - Warlock
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Character08
+      TermType: 0
+      Description: 
+      Languages:
+      - Divine Soul
+      - Ame Divine
+      - Valkyrie
+      - "G\xF6ttliche Seele"
+      - Valkyrie
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme01
+      TermType: 0
+      Description: 
+      Languages:
+      - Greenwood
+      - Bois Vert
+      - Forest
+      - "Gr\xFCnes Holz"
+      - Forest
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme02
+      TermType: 0
+      Description: 
+      Languages:
+      - Lost Caves
+      - Grottes Perdues
+      - Cave
+      - "Verlorene H\xF6hlen"
+      - Cave
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme03
+      TermType: 0
+      Description: 
+      Languages:
+      - Surf Patrol
+      - Patrouille de Surf
+      - Beach
+      - Surf-Patrouille
+      - Beach
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme04
+      TermType: 0
+      Description: 
+      Languages:
+      - Red Desert
+      - "D\xE9sert Rouge"
+      - Tundra
+      - "Rote W\xFCste"
+      - Tundra
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme05
+      TermType: 0
+      Description: 
+      Languages:
+      - Barren Lands
+      - Terres Arides
+      - Curse Land
+      - Unfruchtbares Land
+      - Curse Land
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme06
+      TermType: 0
+      Description: 
+      Languages:
+      - Fiery Gorge
+      - "Ravin Enflamm\xE9"
+      - Volcano
+      - Flammende Schlucht
+      - Volcano
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme07
+      TermType: 0
+      Description: 
+      Languages:
+      - High Ground
+      - "Terrains Elev\xE9s"
+      - North Mountain
+      - "Erh\xF6htes Gel\xE4nde"
+      - North Mountain
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme08
+      TermType: 0
+      Description: 
+      Languages:
+      - Snow Caps
+      - Capsules de Neige
+      - Ice Field
+      - Schneekappen
+      - Ice Field
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme09
+      TermType: 0
+      Description: 
+      Languages:
+      - The Stronghold
+      - La Forteresse
+      - Castle
+      - Die Hochburg
+      - Castle
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ShopItems/Theme10
+      TermType: 0
+      Description: 
+      Languages:
+      - Mushroom Spread
+      - Champ de Champignons
+      - Secret Forest
+      - Pilzfeld
+      - Secret Forest
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Tutorials/Tutorial01
+      TermType: 0
+      Description: 
+      Languages:
+      - Answer questions within the time limit. Answer quickly to get coins!
+      - "R\xE9ponds aux questions dans le temps limite. R\xE9pond rapidement pour
+        obtenir des pi\xE8ces!"
+      - Answer the question within the time limit. For a quick answer you will get
+        a coin
+      - "Beantworte die Fragen innerhalb des Zeitlimits. Antworte schnell, um M\xFCnzen
+        zu bekommen!"
+      - Answer the question within the time limit. For a quick answer you will get
+        a coin
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Tutorials/Tutorial02
+      TermType: 0
+      Description: 
+      Languages:
+      - Press the arrow button with the correct answer.
+      - "Appuie la touche fl\xE9ch\xE9e qui a la bonne r\xE9ponse."
+      - Pick an answer using the arrow buttons with corresponding numbers
+      - "Dr\xFCcke die Pfeiltaste mit der richtigen Antwort."
+      - Pick an answer using the arrow buttons with corresponding numbers
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Tutorials/Tutorial03
+      TermType: 0
+      Description: 
+      Languages:
+      - "You can receive random boosters instead of coin. Don\u2019t miss them!"
+      - "Vous pouvez recevoir des boosters \xE0 la place de pi\xE8ces. Ne les ratez
+        pas!"
+      - "You can receive a random booster instead of a coin. Don\u2019t miss it!"
+      - "Du kannst Booster anstelle von M\xFCnzen erhalten. Verpass sie nicht!"
+      - "You can receive a random booster instead of a coin. Don\u2019t miss it!"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Tutorials/Tutorial04
+      TermType: 0
+      Description: 
+      Languages:
+      - Slows down time by 30% for a while.
+      - Ralentit le temps de 30% pour une courte periode.
+      - Temporary slows down the time gauge by 30%
+      - "Verlangsamt die Zeit um 30% f\xFCr eine kurze Zeit."
+      - Temporary slows down the time gauge by 30%
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Tutorials/Tutorial05
+      TermType: 0
+      Description: 
+      Languages:
+      - Correct answers fully recover the time gauge.
+      - "Les bonne r\xE9ponses remplit la jauge de temps."
+      - Correct answer fully recovers time while the booster is in use.
+      - "Richtige Antworten stellen die Zeitanzeige vollst\xE4ndig wieder her."
+      - Correct answer fully recovers time while the booster is in use.
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Tutorials/Tutorial06
+      TermType: 0
+      Description: 
+      Languages:
+      - Each correct answer awards you 10% more points.
+      - "Chaque bonne r\xE9ponse te rapporte 10% de points suppl\xE9mentaires."
+      - Temporary increases score gain by 10%
+      - "F\xFCr jede richtige Antwort bekommst du 10% extra Punkte."
+      - Temporary increases score gain by 10%
+      Flags: 0000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English (United States)
+      Code: en
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: Italian
+      Code: it
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Spanish (Spain)
+      Code: es
+      Flags: 0
+    IgnoreDeviceLanguage: 1
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets:
+    - {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    - {fileID: 11400000, guid: 993f793c50cb3ac49b58cd3037ff56d9, type: 2}
+    - {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    Spreadsheet_LocalFileName: PecanUI/I2/BoosterMathLocalization.csv
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

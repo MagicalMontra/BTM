@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90726238bd32962478b3145b41e1b787, type: 3}
+  m_Name: PecanSoundConfigs
+  m_EditorClassIdentifier: 
+  configs:
+    separator: /
+    rawData:
+    - Key: UIButton
+      Value: {fileID: 11400000, guid: 462be65404ce59d4b8b8d673a7a0e6d6, type: 2}
+    - Key: UIToggle
+      Value: {fileID: 11400000, guid: 462be65404ce59d4b8b8d673a7a0e6d6, type: 2}
+    - Key: UIToggle/Settings
+      Value: {fileID: 11400000, guid: 462be65404ce59d4b8b8d673a7a0e6d6, type: 2}
+    - Key: UIButton/MainMenu/Play
+      Value: {fileID: 11400000, guid: 8b5386b0004c0544c9a4fec09cf605e1, type: 2}
+    - Key: UIButton/ClaimReward
+      Value: {fileID: 11400000, guid: 77742fa54a9af0148a2ab8c25920e3b6, type: 2}

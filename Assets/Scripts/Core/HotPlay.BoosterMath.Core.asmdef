@@ -1,0 +1,31 @@
+{
+    "name": "HotPlay.BoosterMath.Core",
+    "rootNamespace": "HotPlay.BoosterMath.Core",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:72d1fea872bd7a449bf3818f2b0a6708",
+        "GUID:68765d262e2128e4ab49c983f3411946",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:e70b41872b1f8dd4993ef3caf1c186f2",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:dade5ddbc83d1c64a9c8cd1422fb0db3",
+        "GUID:c8c313cec8a414d51a25919cd903fb67",
+        "GUID:4786f30cd3f4b0a4bb209a98699292b0",
+        "GUID:e4f1e7d3c51d7324d910dd544381d7e7",
+        "GUID:0911f7eddb6b24f43874d551bf1c32a1",
+        "GUID:e0e98e37abdc77944aad317d4adeff4c",
+        "GUID:0f7cf6341451a454f95c90aa8ae0e21f",
+        "GUID:dad624460036b51448e1b1849358a96a",
+        "GUID:fc31511a3ed4248c1a3c8b42ba59735f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

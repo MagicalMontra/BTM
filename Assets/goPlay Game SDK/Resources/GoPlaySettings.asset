@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95d7e20bba3da249a396e013cb60c32, type: 3}
+  m_Name: GoPlaySettings
+  m_EditorClassIdentifier: 
+  gameId: 98
+  environment: 2
+  adDataConfig: 1
+  enableAdPlacement: 1
+  enableRewardSystem: 1
+  enableRewardFrequencyCap: 0
+  rewardFrequencyCap: 60
+  adPlacementValidTime: 21600
+  rewardValidTime: 21600
+  adPlacementIntervalDuration: 10
+  adPlacementViewedDuration: 5
+  analyticIntervalDuration: 30
+  enableAdTracker: 1
+  enableAdTrackerUIDebugger: 0
+  enableAdTrackerRaycastDebugger: 0
+  minimumRaycastHitPercentage: 0.8
+  minimumAreaOnScreenPercentage: 0.02
+  minimumVisibleAnglePercentage: 0.5

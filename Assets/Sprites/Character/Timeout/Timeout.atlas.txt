@@ -1,0 +1,17 @@
+Timeout.png
+size:1634,1634
+filter:Linear,Linear
+character_timeout/character_timeout_cha1
+bounds:432,7,465,605
+character_timeout/character_timeout_cha2
+bounds:899,11,414,662
+rotate:90
+character_timeout/character_timeout_cha2eye
+bounds:2,57,179,94
+character_timeout/character_timeout_lighting1
+bounds:899,427,185,733
+rotate:90
+character_timeout/character_timeout_lighting2
+bounds:2,153,428,1479
+character_timeout/character_timeout_lighting3
+bounds:432,614,1155,1018

@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1052140795144483192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052140795144483195}
+  - component: {fileID: 2851655142298134389}
+  m_Layer: 0
+  m_Name: CurselandThemePrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1052140795144483195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052140795144483192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3000002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1052140795702511895}
+  - {fileID: 8686240600168904288}
+  - {fileID: 1052140796573724589}
+  - {fileID: 1052140796960665796}
+  - {fileID: 1052140795611151259}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2851655142298134389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052140795144483192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5561f091be5c4b979bc01a45b8452ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Theme05
+  elements:
+  - {fileID: 1052140795702511894}
+  - {fileID: 8686240600168904291}
+  - {fileID: 1052140796573724588}
+  - {fileID: 1052140796960665819}
+  - {fileID: 1052140795611151258}
+--- !u!1001 &629530996306259998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052140795144483195}
+    m_Modifications:
+    - target: {fileID: 8085987553553749221, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987553553749224, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987553553749224, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987553553749224, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987553553749224, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140092, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_Name
+      value: CurselandForeground1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140092, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d19acecfe4144c74195485883a113508, type: 3}
+--- !u!4 &8686240600168904288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8085987554149140094, guid: d19acecfe4144c74195485883a113508,
+    type: 3}
+  m_PrefabInstance: {fileID: 629530996306259998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8686240600168904291 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8085987554149140093, guid: d19acecfe4144c74195485883a113508,
+    type: 3}
+  m_PrefabInstance: {fileID: 629530996306259998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c19282004118499d537e9f6a34bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1343025835513399832
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052140795144483195}
+    m_Modifications:
+    - target: {fileID: 2034103774475956609, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_Name
+      value: CurselandMidground2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2902b85898ab72d4ab6557e2ab8fef09, type: 3}
+--- !u!114 &1052140795611151258 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2034103774475956610, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+    type: 3}
+  m_PrefabInstance: {fileID: 1343025835513399832}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c19282004118499d537e9f6a34bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1052140795611151259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2034103774475956611, guid: 2902b85898ab72d4ab6557e2ab8fef09,
+    type: 3}
+  m_PrefabInstance: {fileID: 1343025835513399832}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3305434551476550379
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052140795144483195}
+    m_Modifications:
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920578898785278, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_Name
+      value: CurselandBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920581022115229, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541920581022115232, guid: d1bceb502da320241a59f63905b10300,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1bceb502da320241a59f63905b10300, type: 3}
+--- !u!114 &1052140795702511894 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2541920578898785277, guid: d1bceb502da320241a59f63905b10300,
+    type: 3}
+  m_PrefabInstance: {fileID: 3305434551476550379}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c19282004118499d537e9f6a34bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1052140795702511895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2541920578898785276, guid: d1bceb502da320241a59f63905b10300,
+    type: 3}
+  m_PrefabInstance: {fileID: 3305434551476550379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3834824812017261055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052140795144483195}
+    m_Modifications:
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296993299339523676, guid: 2305e1be68bec3447bedeec874ffcd3a,
+        type: 3}
+      propertyPath: m_Name
+      value: CurselandGround
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2305e1be68bec3447bedeec874ffcd3a, type: 3}
+--- !u!114 &1052140796573724588 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4296993299339523667, guid: 2305e1be68bec3447bedeec874ffcd3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3834824812017261055}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c19282004118499d537e9f6a34bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1052140796573724589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296993299339523666, guid: 2305e1be68bec3447bedeec874ffcd3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3834824812017261055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7233649623086544279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052140795144483195}
+    m_Modifications:
+    - target: {fileID: 7708722731402872141, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_Name
+      value: CurselandMidground1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fad173a7a99760f40abae299c2cb22bc, type: 3}
+--- !u!4 &1052140796960665796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7708722731402872147, guid: fad173a7a99760f40abae299c2cb22bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7233649623086544279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1052140796960665819 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7708722731402872140, guid: fad173a7a99760f40abae299c2cb22bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 7233649623086544279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0c19282004118499d537e9f6a34bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1cba1dfcc04c0eaaee8fe2000a3354, type: 3}
+  m_Name: SoundData
+  m_EditorClassIdentifier: 
+  mainMenuBGM: {fileID: 11400000, guid: d9f2fabfc79482e429eec9fb8513baa8, type: 2}
+  gameplayBGM: {fileID: 11400000, guid: 806415bbb2f049047add81f7c7940e5d, type: 2}
+  bonusAnswer: {fileID: 11400000, guid: 72d5abed33a290943bacb69e3a0dfd2c, type: 2}
+  boosterCollect: {fileID: 11400000, guid: 1aa6ddb22e0f8ec4880d86af14d19951, type: 2}
+  coinCollect: {fileID: 11400000, guid: 4d5557de288b910419990b579521960b, type: 2}
+  timerCountDown: {fileID: 11400000, guid: 7efaefb0c1c933b41920dfbcb490b693, type: 2}
+  heartCollect: {fileID: 11400000, guid: 3cf3192456a8b5a45a9a778c0db456cd, type: 2}
+  monsterAttack: {fileID: 11400000, guid: fcfc97acfe890c340a9646dc58e7a3de, type: 2}
+  monsterDefeated: {fileID: 11400000, guid: 340a5e3097a7a4b4295f1d909c9b82de, type: 2}
+  monsterSpawn: {fileID: 11400000, guid: 2ef5419f10ed12445a002ce580ceb2bc, type: 2}
+  playerAttack: {fileID: 11400000, guid: bf9992e2c2f67ff478dac73aa27fa2e2, type: 2}
+  playerDefeated: {fileID: 11400000, guid: 0da20d288371716459afa0d20cff1c72, type: 2}
+  playerGetHit: {fileID: 11400000, guid: b703109faaed3484c91ed529ab530cab, type: 2}
+  playerStep: {fileID: 11400000, guid: 443c27064e878d14f8dec18e1ed118d1, type: 2}
+  timeOut: {fileID: 11400000, guid: c6ab5677e9a435d429e1ec801b955855, type: 2}
+  correctAnswer: {fileID: 11400000, guid: 65b0e1333cdb53d45915968c45327259, type: 2}
+  wrongAnswer: {fileID: 11400000, guid: 745c2e9f775ceaa489c697db08d1c9e2, type: 2}
+  gameplayResult: {fileID: 11400000, guid: f8e50c6574ae43d44895242256db9f41, type: 2}
+  countdownTimer: {fileID: 11400000, guid: 74ae2c94d96665048b8b3989dbd8d34d, type: 2}
+  windowPopup: {fileID: 11400000, guid: f7b47a2224f2f954e8287bcd5332f089, type: 2}
+  windowHide: {fileID: 11400000, guid: 05cb5e8dd45f1d642ade46500f1b4bb6, type: 2}
+  playButton: {fileID: 11400000, guid: aa0b430b2aa9d034d8d3c16d224650f7, type: 2}
+  dailyReward: {fileID: 11400000, guid: 65b0e1333cdb53d45915968c45327259, type: 2}
+  buttonClick: {fileID: 11400000, guid: 462be65404ce59d4b8b8d673a7a0e6d6, type: 2}
+  unlockItem: {fileID: 11400000, guid: f10676686f3ae614b978012ac02920b5, type: 2}
+  buttonPlus: {fileID: 11400000, guid: 07270d06349f69642b341a55ddbb6f2e, type: 2}
+  buttonMinus: {fileID: 11400000, guid: 73c27f14125d97648a482d95c35f15d7, type: 2}

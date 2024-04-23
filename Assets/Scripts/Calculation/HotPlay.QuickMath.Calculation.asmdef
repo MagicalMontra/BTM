@@ -1,0 +1,17 @@
+{
+    "name": "HotPlay.QuickMath.Calculation",
+    "rootNamespace": "HotPlay.QuickMath.Calculation",
+    "references": [
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:0f7cf6341451a454f95c90aa8ae0e21f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

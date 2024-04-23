@@ -1,0 +1,817 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021bd58249bc4461821e2d28bc9d3962, type: 3}
+  m_Name: PecanNewSkinConfigs
+  m_EditorClassIdentifier: 
+  selectedKey: 
+  searchKeyword: adc
+  availableKeySearch: 
+  newTMPSkin:
+    FontColor: {r: 0, g: 0, b: 0, a: 0}
+    FontAsset: {fileID: 0}
+    PresetMaterial: {fileID: 0}
+  newImageSkin:
+    Color: {r: 0, g: 0, b: 0, a: 0}
+  tmpSkin:
+    separator: /
+    rawData:
+    - Key: Label
+      Value:
+        FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+          type: 2}
+    - Key: Label/Subheading
+      Value:
+        FontColor: {r: 0, g: 0, b: 0, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Subtext
+      Value:
+        FontColor: {r: 0, g: 0, b: 0, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Header
+      Value:
+        FontColor: {r: 0.43529412, g: 0.20392157, b: 0.019607844, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+          type: 2}
+    - Key: Label/Button
+      Value:
+        FontColor: {r: 0.25490198, g: 0.10196079, b: 0.07058824, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/Subheading/HighscoreTitle/MainMenu
+      Value:
+        FontColor: {r: 0.3764706, g: 0, b: 0, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/Subtext/Highscore/MainMenu
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 9505ae7f62c8feb438d699a60d03d562,
+          type: 2}
+    - Key: Label/Button/Large
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6,
+          type: 2}
+    - Key: Label/Button/Circle
+      Value:
+        FontColor: {r: 0.3764706, g: 0, b: 0, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/Button/Tab/Shop/Character
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Button/Tab/Shop/Theme
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Button/Medium
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27,
+          type: 2}
+    - Key: Label/Button/External/Facebook
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+          type: 2}
+    - Key: Label/Button/External/Twitter
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Button/External/Support
+      Value:
+        FontColor: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Subtext/Language/Settings
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 993f793c50cb3ac49b58cd3037ff56d9, type: 2}
+        PresetMaterial: {fileID: 1704766416887933855, guid: 993f793c50cb3ac49b58cd3037ff56d9,
+          type: 2}
+    - Key: Label/Header/Tile/DailyReward
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+          type: 2}
+    - Key: Label/Subtext/Tile/Small/DailyReward
+      Value:
+        FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/Subtext/Tile/Big/DailyReward
+      Value:
+        FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/Subtext/Price/Positive/ItemPreview
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 993f793c50cb3ac49b58cd3037ff56d9, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 423782c394222b549b950c494fd19fdc,
+          type: 2}
+    - Key: Label/Subtext/Owned
+      Value:
+        FontColor: {r: 0.5882353, g: 0.9921569, b: 0.25490198, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6,
+          type: 2}
+    - Key: Label/Header/Tile
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6,
+          type: 2}
+    - Key: Label/Button/Medium/Deny
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6,
+          type: 2}
+    - Key: Label/Button/Medium/Accept
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/PlayerRank
+      Value:
+        FontColor: {r: 0.42352945, g: 0.3254902, b: 0.20784315, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/Button/Toggle
+      Value:
+        FontColor: {r: 0, g: 0, b: 0, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Subheading/Settings/Language
+      Value:
+        FontColor: {r: 0, g: 0, b: 0, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Subtext/PlayerID
+      Value:
+        FontColor: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Subtext/Version
+      Value:
+        FontColor: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Header/Tile/Big/DailyReward
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+          type: 2}
+    - Key: Label/Header/Tile/Shop
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27,
+          type: 2}
+    - Key: Label/Subtext/Owned/Shop/Character
+      Value:
+        FontColor: {r: 0.4431373, g: 0.93725497, b: 0.22352943, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6,
+          type: 2}
+    - Key: Label/Subtext/Owned/Shop/Theme
+      Value:
+        FontColor: {r: 0.4431373, g: 0.93725497, b: 0.22352943, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6,
+          type: 2}
+    - Key: Label/Button/Medium/Deny/ItemPreview
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27,
+          type: 2}
+    - Key: Label/Button/Medium/Accept/ItemPreview
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27,
+          type: 2}
+    - Key: Label/Subtext/Tile
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 9505ae7f62c8feb438d699a60d03d562,
+          type: 2}
+    - Key: Label/Subtext/Name/Leaderboard
+      Value:
+        FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+          type: 2}
+    - Key: Label/Subtext/Score/Leaderboard
+      Value:
+        FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca,
+          type: 2}
+    - Key: Label/Subtext/Currency
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+          type: 2}
+    - Key: Label/Subtext/NewHighScore
+      Value:
+        FontColor: {r: 1, g: 1, b: 0.58431375, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 1e9fba57cc862834482071663a9d94d3,
+          type: 2}
+    - Key: Label/Subtext/ScoreValue
+      Value:
+        FontColor: {r: 1, g: 0.3647059, b: 0.015686275, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 8ecb72e1be9f1cb4ebe1ca52acd5055e,
+          type: 2}
+    - Key: Label/Subtext/Price/Negative
+      Value:
+        FontColor: {r: 1, g: 0.22745098, b: 0.22745098, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27,
+          type: 2}
+    - Key: Label/Subtext/Loading
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 9505ae7f62c8feb438d699a60d03d562,
+          type: 2}
+    - Key: Label/Subtext/Currency/GameResult
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+          type: 2}
+    - Key: Label/Subheading/ScoreValue
+      Value:
+        FontColor: {r: 1, g: 0.36658004, b: 0.0141509175, a: 1}
+        FontAsset: {fileID: 11400000, guid: 993f793c50cb3ac49b58cd3037ff56d9, type: 2}
+        PresetMaterial: {fileID: 1704766416887933855, guid: 993f793c50cb3ac49b58cd3037ff56d9,
+          type: 2}
+    - Key: Label/Subheading/Highscore/MainMenu
+      Value:
+        FontColor: {r: 1, g: 0.5254902, b: 0.2627451, a: 1}
+        FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+        PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+          type: 2}
+    - Key: Label/Button/Circle/Right
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+          type: 2}
+    - Key: Label/Button/Circle/Left
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+          type: 2}
+    - Key: Label/Button/Tab
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 2bb9603aeb11f2347a1412230a318bb4,
+          type: 2}
+    - Key: Label/Subtext/Price/Positive
+      Value:
+        FontColor: {r: 1, g: 1, b: 1, a: 1}
+        FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+        PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27,
+          type: 2}
+  imageSkin:
+    separator: /
+    rawData:
+    - Key: Panel/BG
+      Value:
+        Color: {r: 1, g: 0.9764706, b: 0.8509804, a: 1}
+    - Key: Panel/BG/Fade
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.7490196}
+    - Key: Panel/Outline
+      Value:
+        Color: {r: 1, g: 0.7137255, b: 0.12941177, a: 1}
+    - Key: Panel/Header/BG
+      Value:
+        Color: {r: 1, g: 0.9215687, b: 0.22352943, a: 1}
+    - Key: Panel/Header/Outline
+      Value:
+        Color: {r: 0.28627452, g: 0.02745098, b: 0.02745098, a: 1}
+    - Key: Button/Large/Top
+      Value:
+        Color: {r: 0.45882353, g: 0.27058825, b: 0.8784314, a: 1}
+    - Key: Button/Large/Stroke
+      Value:
+        Color: {r: 0.6156863, g: 0, b: 0, a: 1}
+    - Key: Button/Large/Bottom
+      Value:
+        Color: {r: 0.16862746, g: 0.06666667, b: 0.39215687, a: 1}
+    - Key: Button/Large/Highlight
+      Value:
+        Color: {r: 1, g: 0.65882355, b: 0.94509804, a: 1}
+    - Key: Button/Large/Highlighted
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Circle/Stroke
+      Value:
+        Color: {r: 0.3254902, g: 0.10980392, b: 0.4, a: 1}
+    - Key: Button/Circle/Bottom
+      Value:
+        Color: {r: 0.5411765, g: 0.09019608, b: 0.22745098, a: 1}
+    - Key: Button/Circle/Top
+      Value:
+        Color: {r: 0.94509804, g: 0.30588236, b: 0.5019608, a: 1}
+    - Key: Button/Circle/Highlight
+      Value:
+        Color: {r: 1, g: 0.8980392, b: 0.078431375, a: 0.43137255}
+    - Key: Button/Circle/Highlighted
+      Value:
+        Color: {r: 0.99215686, g: 1, b: 0.8901961, a: 1}
+    - Key: Button/Circle/Icon
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Medium/Stroke/Deny
+      Value:
+        Color: {r: 0.4, g: 0.10980392, b: 0.10980392, a: 1}
+    - Key: Button/Medium/Bottom/Deny
+      Value:
+        Color: {r: 0.7647059, g: 0.3764706, b: 0.019607844, a: 1}
+    - Key: Button/Medium/Top/Deny
+      Value:
+        Color: {r: 0.98039216, g: 0.77254903, b: 0.039215688, a: 1}
+    - Key: Button/Medium/Highlight/Deny
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - Key: Button/Medium/Highlighted/Deny
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Medium/Stroke/Accept
+      Value:
+        Color: {r: 0.02745098, g: 0.34509805, b: 0.09803922, a: 1}
+    - Key: Button/Medium/Bottom/Accept
+      Value:
+        Color: {r: 0.09019608, g: 0.47843137, b: 0.1764706, a: 1}
+    - Key: Button/Medium/Top/Accept
+      Value:
+        Color: {r: 0.019607844, g: 0.9098039, b: 0, a: 1}
+    - Key: Button/Medium/Highlight/Accept
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - Key: Button/Medium/Highlighted/Accept
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Toggle/Circle/Stroke
+      Value:
+        Color: {r: 0.3254902, g: 0.10980392, b: 0.4, a: 1}
+    - Key: Button/Toggle/Circle/Bottom
+      Value:
+        Color: {r: 0.5411765, g: 0.09019608, b: 0.22745098, a: 1}
+    - Key: Button/Toggle/Circle/Top
+      Value:
+        Color: {r: 0.94509804, g: 0.30588236, b: 0.5019608, a: 1}
+    - Key: Button/Toggle/Circle/Highlight
+      Value:
+        Color: {r: 1, g: 0.8980392, b: 0.078431375, a: 0.43137255}
+    - Key: Button/Toggle/Circle/Highlighted
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Toggle/Circle/Icon
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Toggle/Circle/Noti
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Circle/Noti
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/External/Outline/Facebook
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 1}
+    - Key: Button/External/Bottom/Facebook
+      Value:
+        Color: {r: 0.03137255, g: 0.23529413, b: 0.4666667, a: 1}
+    - Key: Button/External/Top/Facebook
+      Value:
+        Color: {r: 0.039215688, g: 0.50980395, b: 0.9294118, a: 1}
+    - Key: Button/External/Highlight/Facebook
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.2901961}
+    - Key: Button/External/Line/Shade
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.4392157}
+    - Key: Button/External/Line/Highlight
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.3529412}
+    - Key: Button/External/Highlighted/Facebook
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/External/Outline/Twitter
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 1}
+    - Key: Button/External/Bottom/Twitter
+      Value:
+        Color: {r: 0.08235294, g: 0.5411765, b: 0.73333335, a: 1}
+    - Key: Button/External/Top/Twitter
+      Value:
+        Color: {r: 0.23529413, g: 0.7176471, b: 0.9215687, a: 1}
+    - Key: Button/External/Highlight/Twitter
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.2901961}
+    - Key: Button/External/Highlighted/Twitter
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/External/Outline/Support
+      Value:
+        Color: {r: 0.6698113, g: 0.44446996, b: 0.0473923, a: 1}
+    - Key: Button/External/Bottom/Support
+      Value:
+        Color: {r: 0.76470596, g: 0.37647063, b: 0.019607844, a: 1}
+    - Key: Button/External/Top/Support
+      Value:
+        Color: {r: 0.9811321, g: 0.8247642, b: 0.27305093, a: 1}
+    - Key: Button/External/Highlight/Support
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.2901961}
+    - Key: Button/External/Highlighted/Support
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Stroke
+      Value:
+        Color: {r: 0.15294118, g: 0.15294118, b: 0.20784314, a: 1}
+    - Key: Tile/Bottom
+      Value:
+        Color: {r: 0.019607844, g: 0.37254903, b: 0.6313726, a: 1}
+    - Key: Tile/ItemMask
+      Value:
+        Color: {r: 1, g: 0.972549, b: 0.73333335, a: 1}
+    - Key: Tile/Depth
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Head
+      Value:
+        Color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 0.3137255}
+    - Key: Tile/Foot
+      Value:
+        Color: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 0.3137255}
+    - Key: PlayerRank/Outline
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 1}
+    - Key: PlayerRank/Bevel
+      Value:
+        Color: {r: 1, g: 0.9372549, b: 0.78039217, a: 1}
+    - Key: PlayerRank/BG
+      Value:
+        Color: {r: 1, g: 0.9372549, b: 0.78039217, a: 1}
+    - Key: PlayerRank/Depth
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.4745098}
+    - Key: PlayerRank/Tag/Outline
+      Value:
+        Color: {r: 0.2627451, g: 0.21960784, b: 0.21960784, a: 1}
+    - Key: PlayerRank/Tag/Bottom
+      Value:
+        Color: {r: 0.34509805, g: 0.29411766, b: 0.29411766, a: 1}
+    - Key: PlayerRank/Tag/Top
+      Value:
+        Color: {r: 0.6392157, g: 0.57254905, b: 0.5254902, a: 1}
+    - Key: Button/External/Line/Shade/Facebook
+      Value:
+        Color: {r: 0.03137255, g: 0.23529413, b: 0.4666667, a: 1}
+    - Key: Button/External/Line/Highlight/Facebook
+      Value:
+        Color: {r: 0.4156863, g: 0.68235296, b: 0.9490197, a: 1}
+    - Key: Button/External/Line/Shade/Twitter
+      Value:
+        Color: {r: 0.03137255, g: 0.23529413, b: 0.4666667, a: 1}
+    - Key: Button/External/Line/Highlight/Twitter
+      Value:
+        Color: {r: 0.5411765, g: 0.8313726, b: 0.95294124, a: 1}
+    - Key: Button/External/Line/Shade/Support
+      Value:
+        Color: {r: 0.76470596, g: 0.37647063, b: 0.019607844, a: 1}
+    - Key: Button/External/Line/Highlight/Support
+      Value:
+        Color: {r: 0.98823535, g: 0.86274517, b: 0.42352945, a: 1}
+    - Key: Button/Small/Stroke
+      Value:
+        Color: {r: 0.4, g: 0.10980392, b: 0.10980392, a: 1}
+    - Key: Button/Small/Bottom
+      Value:
+        Color: {r: 0.56078434, g: 0.2, b: 0, a: 1}
+    - Key: Button/Small/Top
+      Value:
+        Color: {r: 0.98039216, g: 0.3764706, b: 0.039215688, a: 1}
+    - Key: Button/Small/Highlighted
+      Value:
+        Color: {r: 0.99215686, g: 1, b: 0.8901961, a: 1}
+    - Key: Button/Small/Highlight
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Small/Icon
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Top
+      Value:
+        Color: {r: 0.34901962, g: 0.7764706, b: 1, a: 1}
+    - Key: Tile/Top/BG/DailyReward/Big
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Stroke/Small/DailyReward
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 1}
+    - Key: Tile/Bottom/Big/DailyReward
+      Value:
+        Color: {r: 0.4781988, g: 0.109069064, b: 0.5377358, a: 1}
+    - Key: Tile/Stroke/Big/DailyReward
+      Value:
+        Color: {r: 0.3042841, g: 0.04049486, b: 0.6603774, a: 1}
+    - Key: Tile/Depth/Big/DailyReward
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 1}
+    - Key: PlayerRank/Outline/Image
+      Value:
+        Color: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 1}
+    - Key: Tile/Head/Small/DailyReward
+      Value:
+        Color: {r: 0, g: 0.5294118, b: 1, a: 0.29803923}
+    - Key: Capsule/Outline
+      Value:
+        Color: {r: 0.990566, g: 0.990566, b: 0.7803044, a: 1}
+    - Key: Capsule/BG
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.6}
+    - Key: VFX/Flare
+      Value:
+        Color: {r: 0.28627452, g: 0.87058824, b: 1, a: 1}
+    - Key: VFX/Sparkles
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Panel/BG/Loading
+      Value:
+        Color: {r: 0.047169805, g: 0.047169805, b: 0.047169805, a: 1}
+    - Key: Panel/Accent/Loading
+      Value:
+        Color: {r: 0.9803922, g: 0.5294118, b: 0.14901961, a: 1}
+    - Key: Bar/Outline/Loading
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Capsule/BG/Currency
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.92156863}
+    - Key: Capsule/Outline/Currency
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Capsule/BG/GameResult
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+    - Key: Capsule/Outline/GameResult
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Small/Stroke/Close
+      Value:
+        Color: {r: 0.4, g: 0.10980392, b: 0.10980392, a: 1}
+    - Key: Button/Small/Bottom/Close
+      Value:
+        Color: {r: 0.56078434, g: 0.2, b: 0, a: 1}
+    - Key: Button/Small/Top/Close
+      Value:
+        Color: {r: 0.98039216, g: 0.3764706, b: 0.039215688, a: 1}
+    - Key: Button/Small/Highlight/Close
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 0.74509805}
+    - Key: Button/Small/Highlighted/Close
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Small/Icon/Close
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Circle/Stroke/Right
+      Value:
+        Color: {r: 0.3254902, g: 0.10980392, b: 0.4, a: 1}
+    - Key: Button/Circle/Bottom/Right
+      Value:
+        Color: {r: 0.5411765, g: 0.09019608, b: 0.22745098, a: 1}
+    - Key: Button/Circle/Top/Right
+      Value:
+        Color: {r: 0.94509804, g: 0.30588236, b: 0.5019608, a: 1}
+    - Key: Button/Circle/Highlight/Right
+      Value:
+        Color: {r: 1, g: 0.8980392, b: 0.078431375, a: 0.43137255}
+    - Key: Button/Circle/Highlighted/Right
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Small/Stroke/Right
+      Value:
+        Color: {r: 0.3254902, g: 0.10980392, b: 0.4, a: 1}
+    - Key: Button/Small/Bottom/Right
+      Value:
+        Color: {r: 0.5411765, g: 0.09019608, b: 0.22745098, a: 1}
+    - Key: Button/Small/Top/Right
+      Value:
+        Color: {r: 0.94509804, g: 0.30588236, b: 0.5019608, a: 1}
+    - Key: Button/Small/Highlight/Right
+      Value:
+        Color: {r: 1, g: 0.8980392, b: 0.078431375, a: 0.43137255}
+    - Key: Button/Small/Highlighted/Right
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Small/Icon/Right
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Circle/Stroke/Left
+      Value:
+        Color: {r: 0.3254902, g: 0.10980392, b: 0.4, a: 1}
+    - Key: Button/Circle/Bottom/Left
+      Value:
+        Color: {r: 0.5411765, g: 0.09019608, b: 0.22745098, a: 1}
+    - Key: Button/Circle/Top/Left
+      Value:
+        Color: {r: 0.94509804, g: 0.30588236, b: 0.5019608, a: 1}
+    - Key: Button/Circle/Highlight/Left
+      Value:
+        Color: {r: 1, g: 0.8980392, b: 0.078431375, a: 0.43137255}
+    - Key: Button/Circle/Highlighted/Left
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Small/Stroke/Left
+      Value:
+        Color: {r: 0.3254902, g: 0.10980392, b: 0.4, a: 1}
+    - Key: Button/Small/Bottom/Left
+      Value:
+        Color: {r: 0.5411765, g: 0.09019608, b: 0.22745098, a: 1}
+    - Key: Button/Small/Top/Left
+      Value:
+        Color: {r: 0.94509804, g: 0.30588236, b: 0.5019608, a: 1}
+    - Key: Button/Small/Highlight/Left
+      Value:
+        Color: {r: 1, g: 0.8980392, b: 0.078431375, a: 0.43137255}
+    - Key: Button/Small/Highlighted/Left
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Small/Icon/Left
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Bottom/Small/DailyReward
+      Value:
+        Color: {r: 0.03123889, g: 0.34631127, b: 0.509434, a: 1}
+    - Key: Tile/Top/Small/DailyReward
+      Value:
+        Color: {r: 0.24056602, g: 0.5953836, b: 1, a: 1}
+    - Key: Tile/Depth/Small/DailyReward
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Highlight/Small/DailyReward
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Top/Big/DailyReward
+      Value:
+        Color: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    - Key: Tile/Highlight/Big/DailyReward
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Head/Big/DailyReward
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0}
+    - Key: PlayerRank/BG/Image
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: PlayerRank/Tag/Depth
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Capsule/BG/Language/Settings
+      Value:
+        Color: {r: 0.36862746, g: 0.2901961, b: 0.19607843, a: 0.6}
+    - Key: Capsule/Outline/Language/Settings
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/External/Stroke/Support
+      Value:
+        Color: {r: 0.4039216, g: 0.28235295, b: 0.06666667, a: 1}
+    - Key: Button/External/Logo/Support
+      Value:
+        Color: {r: 0.4056604, g: 0.2836047, b: 0.066972226, a: 1}
+    - Key: Button/Tab/Stroke
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Tab/Bottom
+      Value:
+        Color: {r: 0.18039216, g: 0.6, b: 0.8901961, a: 1}
+    - Key: Button/Tab/Top
+      Value:
+        Color: {r: 0, g: 0.5803922, b: 1, a: 1}
+    - Key: Button/Tab/Depth
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Tab/Icon
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Tab/Highlight
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Button/Tab/Bar/Shade
+      Value:
+        Color: {r: 0.12726949, g: 0.2493003, b: 0.49056602, a: 1}
+    - Key: Button/Tab/Bar/White
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Stroke/Small/Shop
+      Value:
+        Color: {r: 0.4117647, g: 0.11372549, b: 0.11372549, a: 1}
+    - Key: Tile/Bottom/Small/Shop
+      Value:
+        Color: {r: 0.4117647, g: 0.11372549, b: 0.11372549, a: 1}
+    - Key: Tile/Top/Small/Shop
+      Value:
+        Color: {r: 1, g: 0.972549, b: 0.73333335, a: 1}
+    - Key: Tile/Depth/Small/Shop
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Highlight/Small/Shop
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Head/Small/Shop
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+    - Key: Tile/Foot/Small/Shop
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+    - Key: Tile/Stroke/Big/Shop
+      Value:
+        Color: {r: 0.42352942, g: 0.3137255, b: 0.14901961, a: 1}
+    - Key: Tile/Bottom/Big/Shop
+      Value:
+        Color: {r: 0.4117647, g: 0.11372549, b: 0.11372549, a: 1}
+    - Key: Tile/Top/Big/Shop
+      Value:
+        Color: {r: 1, g: 0.972549, b: 0.73333335, a: 1}
+    - Key: Tile/Depth/Big/Shop
+      Value:
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    - Key: Tile/Highlight/Big/Shop
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 1}
+    - Key: Tile/Head/Big/Shop
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+    - Key: Tile/Foot/Big/Shop
+      Value:
+        Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+    - Key: AdContainer/BG
+      Value:
+        Color: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    - Key: AdContainer/Outline
+      Value:
+        Color: {r: 1, g: 0.7137255, b: 0.12941177, a: 1}
+    - Key: AdContainer/BG/Tutorial
+      Value:
+        Color: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    - Key: AdContainer/Outline/Tutorial
+      Value:
+        Color: {r: 1, g: 0.7137255, b: 0.12941177, a: 1}
+  pecanServices: {fileID: 2857124291412500704, guid: 267da18bf76915a40ae8336b242579f3,
+    type: 3}

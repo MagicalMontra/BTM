@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf0fc48e81a2bd240ae7be96ff704953, type: 3}
+  m_Name: PecanConfigs
+  m_EditorClassIdentifier: 
+  sceneLoadAnimation: {fileID: 3314102353140564575, guid: 5e864ff23d0113b4596ba82c1aa66185,
+    type: 3}
+  dailyLogin: {fileID: 11400000, guid: a44772959f3f4234a98c23e1e26331ed, type: 2}
+  defaultImpressionTextures:
+  - Ratio: 10
+    DefaultTexture: {fileID: 2800000, guid: b862332a97362a44587e1edc5927ba6d, type: 3}
+  - Ratio: 15
+    DefaultTexture: {fileID: 2800000, guid: b862332a97362a44587e1edc5927ba6d, type: 3}
+  isEnableCharacterTab: 1
+  isEnableThemeTab: 1
+  defaultShopCategory: 0
+  shopTabCharacterImage: {fileID: 0}
+  shopTabThemeImage: {fileID: 0}
+  shopTabThemeLabel: 
+  shopTabCharacterLabel: 
+  showFacebookButton: 0
+  facebookURL: https://www.facebook.com/
+  showTwitterButton: 0
+  twitterURL: https://twitter.com/
+  showSupportButton: 0
+  supportURL: https://www.instagram.com/
+  privacyPolicyURL: https://www.google.com/
+  tutorialData:
+  - Group: FIRST_TIME_GROUP
+    DefaultData:
+      TutorialSprite: {fileID: 21300000, guid: a4d60d9a6898f4b4495041eefb53ad0f, type: 3}
+      TutorialKey: Tutorial01
+    PlatformData: []
+  - Group: FIRST_TIME_GROUP
+    DefaultData:
+      TutorialSprite: {fileID: 21300000, guid: b33dca8cee8b80943989a2053e9982f1, type: 3}
+      TutorialKey: Tutorial02
+    PlatformData: []
+  - Group: FIRST_TIME_GROUP
+    DefaultData:
+      TutorialSprite: {fileID: 21300000, guid: e5020b1f09d33674f9487e215bc9550b, type: 3}
+      TutorialKey: Tutorial03
+    PlatformData: []
+  - Group: TIME_SLOWDOWN_GROUP
+    DefaultData:
+      TutorialSprite: {fileID: 21300000, guid: 1fc21dbfe7f9f09459f0586dcca92dc0, type: 3}
+      TutorialKey: Tutorial04
+    PlatformData: []
+  - Group: TIME_RECOVERY_GROUP
+    DefaultData:
+      TutorialSprite: {fileID: 21300000, guid: e0d56ba2b609ec145a5cfaa95fd27c1e, type: 3}
+      TutorialKey: Tutorial05
+    PlatformData: []
+  - Group: HIGH_SCORE_GROUP
+    DefaultData:
+      TutorialSprite: {fileID: 21300000, guid: 46af7d4b54479f3429a46c049ecc3558, type: 3}
+      TutorialKey: Tutorial06
+    PlatformData: []
+  languages:
+  - languageName: Language/English
+    languageCode: en
+  - languageName: Language/French
+    languageCode: fr
+  - languageName: Language/German
+    languageCode: de
+  tutorialCategory: Tutorials/
+  shopItemCategory: ShopItems/
+  resultLeaderboardType: 1
+  leaderboardDataProvider:
+    leaderboardData:
+    - {fileID: 11400000, guid: f00d73270acf84999819ee3ddebfea48, type: 2}
+    - {fileID: 11400000, guid: bd5dcecbef49a4cbdb54a39fb77e27e0, type: 2}
+    - {fileID: 11400000, guid: 398482936e1024340981b4b973f6d065, type: 2}
+    - {fileID: 11400000, guid: aea2df276334f4efc96a81cbdb8164fc, type: 2}
+    - {fileID: 11400000, guid: c7da1660be93e434a90ae8a3de59d584, type: 2}
+    - {fileID: 11400000, guid: 45ee8efed2c4340389d9851b46905557, type: 2}
+    - {fileID: 11400000, guid: cec677fa97c3847bcb846ecf2ea586da, type: 2}
+    - {fileID: 11400000, guid: d1d97edbf40af4681b7c47ba6187bfd4, type: 2}
+    - {fileID: 11400000, guid: c49b2e766a593483e86d2d3739437849, type: 2}
+    - {fileID: 11400000, guid: 1ed49a046151041dea730d8a3a39fe48, type: 2}
+    - {fileID: 11400000, guid: bfbbf7412b0a54af4a80f61a3f38beb9, type: 2}
+    - {fileID: 11400000, guid: b23bc6cfc20ba4a5099a0dd9d587adf7, type: 2}
+    - {fileID: 11400000, guid: 6a89706a0b1cd4d18871bda065a62250, type: 2}
+    - {fileID: 11400000, guid: 8f39c6df1dad643c1a34c21b514dd130, type: 2}
+    - {fileID: 11400000, guid: 9841b02493bb7403c93130b266b50b9f, type: 2}
+    - {fileID: 11400000, guid: 71824f1afbdfd49acb5f8afceb39e945, type: 2}
+    - {fileID: 11400000, guid: 8d1d889b02d56413eaea905f5b664674, type: 2}
+    - {fileID: 11400000, guid: 61cef8dfda3cd4555a1c11405546e877, type: 2}
+    - {fileID: 11400000, guid: f654134ba0a4d4329b4447482a5fb0f6, type: 2}
+    - {fileID: 11400000, guid: 8965be517dbef48fda69fa956a240d36, type: 2}
+    - {fileID: 11400000, guid: f90c950ccf5ce4647b482ef07173a583, type: 2}
+    - {fileID: 11400000, guid: 64e7de9f339c84613ae3085825bc45f0, type: 2}
+    - {fileID: 11400000, guid: ec204a360c1cd4aa9a438f9b3e763608, type: 2}
+    - {fileID: 11400000, guid: 384af27272c034820bf914af049ca1fa, type: 2}
+    - {fileID: 11400000, guid: 1590318b03af0440abb905d144fc2ab5, type: 2}
+    - {fileID: 11400000, guid: 0b90b1d9a05eb44dca629e93fe85887a, type: 2}
+    - {fileID: 11400000, guid: e5777fe424fc84fd99c68f6f6b495ea6, type: 2}
+    - {fileID: 11400000, guid: f3f66be2c8e904ce9bfb784a3681669c, type: 2}
+    - {fileID: 11400000, guid: 48466927ed26041d7931b0913bb5e997, type: 2}
+    - {fileID: 11400000, guid: ad1ed62ac09914eb998f1ca308a1f1d0, type: 2}
+    - {fileID: 11400000, guid: b0cf837500abd41319b8837ebfd54fe4, type: 2}
+    - {fileID: 11400000, guid: cb44c317679c244aaa95b9df995e57a4, type: 2}
+    - {fileID: 11400000, guid: 6cd9aec1f14ed4d6391d3a72adffb163, type: 2}
+    - {fileID: 11400000, guid: a8d7b10e9f40a4061bf369ae048cf9ec, type: 2}
+    - {fileID: 11400000, guid: d113595fd7ad14658a82d348c43ecc71, type: 2}
+    - {fileID: 11400000, guid: 2a558f66b00124fec866151fbaa108ce, type: 2}
+    - {fileID: 11400000, guid: a7c130809a2094c289feac7de9da92dd, type: 2}
+    - {fileID: 11400000, guid: 1a752524b505f4076a02deae9ded63be, type: 2}
+    - {fileID: 11400000, guid: c1d0d6a81555245dc93b78e2a647b8f3, type: 2}
+    - {fileID: 11400000, guid: f4a0ca8a29dbb401caa07bf86cdf1b5b, type: 2}
+    - {fileID: 11400000, guid: ba4e643d77fca4f98aaca98311ab405a, type: 2}
+    - {fileID: 11400000, guid: 3734aa1d7ca804daba95006f7e879c30, type: 2}
+    - {fileID: 11400000, guid: 9513b8716c8f64715b952bc1796d1f2e, type: 2}
+    - {fileID: 11400000, guid: 18b7a42e206554466b273f15c1540b99, type: 2}
+    - {fileID: 11400000, guid: 89a7b201593514e3fb6002796ebf4f25, type: 2}
+    - {fileID: 11400000, guid: efb6eea078993413e8741d374ea7a907, type: 2}
+    - {fileID: 11400000, guid: ea7c8b2025de444b6a139b60e8bd8ddf, type: 2}
+    - {fileID: 11400000, guid: 72bc259d246d7457f94605639ac9426b, type: 2}
+    - {fileID: 11400000, guid: 60ad4fd3d77a44c9bb31ef2f812d8225, type: 2}
+    playerName: You
+    playerAvatarSprite: {fileID: 1134374971, guid: 7ddef1ca7a3164879ad18c30742d7a5b,
+      type: 3}
+    playerCurrentHighScoreTest: 0
+  gameplayUIPrefab: {fileID: -5038239672456521152, guid: b25ebfa68cb9c4047bef06352e4f82dc,
+    type: 3}
+  gameTitlePrefab: {fileID: 8619830620552000619, guid: 85f6b363b8c03dc42aacaa2b32f97466,
+    type: 3}
+  scrollSensitivity: 100

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gameplay
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 24e6f9d49d8853546a56ba6b0d871aaa, type: 3}
+    - {fileID: 2800000, guid: 2fe1d5dafd78ce84fa7dd47bc6fe8ff9, type: 3}
+    - {fileID: 2800000, guid: d5716f58c8e18a345ab03160bf0b3b34, type: 3}
+    - {fileID: 2800000, guid: 548a515ceacf49547ad2498c98ca6ac8, type: 3}
+    - {fileID: 2800000, guid: f0c1319df84400548be54279d6b5c78a, type: 3}
+    - {fileID: 2800000, guid: dc72044493718a946991b958b4fc6f34, type: 3}
+    - {fileID: 2800000, guid: a47185e99a5f5694dbc16c3032104fd5, type: 3}
+    - {fileID: 2800000, guid: 4a65baeef6d98f84cbe3d540e9e5552b, type: 3}
+    - {fileID: 2800000, guid: f254c7d0fd4178e4babe72da1221403c, type: 3}
+    - {fileID: 2800000, guid: d1a1e6bc940125a4a90c8911e90d125e, type: 3}
+    - {fileID: 2800000, guid: 83bbf70b69c90b6408799646267f6397, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f254c7d0fd4178e4babe72da1221403c, type: 3}
+  - {fileID: 21300000, guid: dc72044493718a946991b958b4fc6f34, type: 3}
+  - {fileID: 21300000, guid: 24e6f9d49d8853546a56ba6b0d871aaa, type: 3}
+  - {fileID: 21300000, guid: d5716f58c8e18a345ab03160bf0b3b34, type: 3}
+  - {fileID: 21300000, guid: a47185e99a5f5694dbc16c3032104fd5, type: 3}
+  - {fileID: 21300000, guid: 2fe1d5dafd78ce84fa7dd47bc6fe8ff9, type: 3}
+  - {fileID: 21300000, guid: 83bbf70b69c90b6408799646267f6397, type: 3}
+  - {fileID: 21300000, guid: 548a515ceacf49547ad2498c98ca6ac8, type: 3}
+  - {fileID: 21300000, guid: d1a1e6bc940125a4a90c8911e90d125e, type: 3}
+  - {fileID: 21300000, guid: f0c1319df84400548be54279d6b5c78a, type: 3}
+  - {fileID: 21300000, guid: 4a65baeef6d98f84cbe3d540e9e5552b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - LifeBar_BG
+  - icon_Time
+  - bar_TimeBG
+  - Bar_TimeRecovering
+  - icon_timeCursor
+  - bar_TimeFill
+  - Question_Plate
+  - Button_Answer
+  - LifeBar_Fill
+  - ButtonSymbol_Theme01
+  - icon_timer_glow
+  m_RenderDataMap: {}
+  m_Tag: Gameplay
+  m_IsVariant: 0

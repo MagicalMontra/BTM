@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e929a109fe4f62b49d90b8298282f9, type: 3}
+  m_Name: GameServiceInstaller
+  m_EditorClassIdentifier: 
+  gameData: {fileID: 11400000, guid: a6a7f9ca2d59bae4e859d14bab9c65a2, type: 2}
+  soundData: {fileID: 11400000, guid: c8e88eb70214696439cf964a48ac43ec, type: 2}
+  shopDatabase: {fileID: 11400000, guid: f766ca15162fe1c409d0295a1e915e25, type: 2}

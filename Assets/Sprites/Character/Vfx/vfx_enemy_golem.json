@@ -1,0 +1,67 @@
+{
+"skeleton": {
+	"hash": "MPvSgbXbZrc",
+	"spine": "4.1.17",
+	"x": -128,
+	"y": 1.05,
+	"width": 256,
+	"height": 100,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "vfx/vfx_enemy_golem", "parent": "root" }
+],
+"slots": [
+	{ "name": "vfx/vfx_enemy_golem", "bone": "vfx/vfx_enemy_golem", "attachment": "vfx/vfx_enemy_golem" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"vfx/vfx_enemy_golem": {
+				"vfx/vfx_enemy_golem": { "y": 51.05, "width": 256, "height": 100 }
+			}
+		}
+	}
+],
+"animations": {
+	"particle_spawn": {
+		"slots": {
+			"vfx/vfx_enemy_golem": {
+				"rgba": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.6333, "name": "vfx/vfx_enemy_golem" }
+				]
+			}
+		},
+		"bones": {
+			"vfx/vfx_enemy_golem": {
+				"scalex": [
+					{ "time": 0.6333, "value": 3.632 },
+					{ "time": 0.6667, "value": 1.214 },
+					{ "time": 0.7, "value": 1.792 },
+					{ "time": 0.7333, "value": 1.843 },
+					{ "time": 0.7667, "value": 3.558 },
+					{ "time": 0.9, "value": 10.252 }
+				],
+				"scaley": [
+					{ "time": 0.6333, "value": 2.427 },
+					{ "time": 0.6667, "value": 13.868 },
+					{ "time": 0.7, "value": 10.345 },
+					{ "time": 0.7333, "value": 3.798 },
+					{ "time": 0.7667, "value": 2.814 },
+					{ "time": 0.8, "value": 4.103 },
+					{ "time": 0.8333, "value": 4.558 },
+					{ "time": 0.9, "value": 1.022 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04070ea663b32148927272917690306, type: 3}
+  m_Name: PecanSkinConfigs
+  m_EditorClassIdentifier: 
+  headerPanel:
+    BackgroundColor: {r: 1, g: 0.6669132, b: 0.2216981, a: 1}
+    OutlineColor: {r: 0.4339623, g: 0.20323351, b: 0.01842292, a: 1}
+  headerLabel:
+    FontColor: {r: 0.4245283, g: 0.18555784, b: 0.030037375, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+      type: 2}
+  dialogPanel:
+    BackgroundColor: {r: 1, g: 0.93333334, b: 0.79607844, a: 1}
+    OutlineColor: {r: 1, g: 0.5647059, b: 0, a: 1}
+  dialogLabel:
+    FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+      type: 2}
+  currencyBar:
+    BackgroundColor: {r: 0, g: 0, b: 0, a: 0.6}
+    OutlineColor: {r: 0.990566, g: 0.990566, b: 0.7803044, a: 1}
+  currencyBarLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+      type: 2}
+  resultCurrencyBar:
+    BackgroundColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+    OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  resultCurrencyBarLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+      type: 2}
+  highScoreMainMenu:
+    FontColor: {r: 1, g: 0.5254902, b: 0.2627451, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+      type: 2}
+  highScoreResult:
+    FontColor: {r: 1, g: 0.36658004, b: 0.0141509175, a: 1}
+    FontAsset: {fileID: 11400000, guid: 993f793c50cb3ac49b58cd3037ff56d9, type: 2}
+    PresetMaterial: {fileID: 1704766416887933855, guid: 993f793c50cb3ac49b58cd3037ff56d9,
+      type: 2}
+  closeButton:
+    StrokeColor: {r: 0.3490566, g: 0.13665895, b: 0.13665895, a: 1}
+    BottomColor: {r: 0.5377358, g: 0.1963262, b: 0, a: 1}
+    TopColor: {r: 0.8509804, g: 0.4710918, b: 0.14901957, a: 1}
+    HighlightColor: {r: 1, g: 0.8307333, b: 0, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+  bigButton:
+    StrokeColor: {r: 0.0102794655, g: 0.1850014, b: 0.31132078, a: 1}
+    BottomColor: {r: 0, g: 0.36137608, b: 0.6226415, a: 1}
+    TopColor: {r: 0, g: 0.65882355, b: 1, a: 1}
+    HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+  bigButtonLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6, type: 2}
+  commonButton:
+    StrokeColor: {r: 0.34901962, g: 0.13725491, b: 0.13725491, a: 1}
+    BottomColor: {r: 0.5647059, g: 0.25490198, b: 0.0627451, a: 1}
+    TopColor: {r: 0.98039216, g: 0.47058824, b: 0.039215688, a: 1}
+    HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    NavigatorColor: {r: 0.99215686, g: 1, b: 0.8901961, a: 1}
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+  commonButtonLabel:
+    FontColor: {r: 0.25490198, g: 0.10196079, b: 0.06666667, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+      type: 2}
+  positiveButton:
+    StrokeColor: {r: 0.06567073, g: 0.3490566, b: 0, a: 1}
+    BottomColor: {r: 0, g: 0.5660378, b: 0.094339676, a: 1}
+    TopColor: {r: 0.35627085, g: 0.8490566, b: 0, a: 1}
+    HighlightColor: {r: 0.9497296, g: 1, b: 0.41037738, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+  positiveButtonLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+      type: 2}
+  negativeButton:
+    StrokeColor: {r: 0.33962262, g: 0.15455396, b: 0.011213961, a: 1}
+    BottomColor: {r: 0.4716981, g: 0.23239581, b: 0.10012461, a: 1}
+    TopColor: {r: 0.98039216, g: 0.6522206, b: 0, a: 1}
+    HighlightColor: {r: 1, g: 1, b: 1, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+  negativeButtonLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+      type: 2}
+  loginSmallReward:
+    StrokeColor: {r: 0, g: 0, b: 0, a: 1}
+    BottomColor: {r: 0.03123889, g: 0.34631127, b: 0.509434, a: 1}
+    TopColor: {r: 0.24056602, g: 0.5953836, b: 1, a: 1}
+    DepthColor: {r: 1, g: 1, b: 1, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    DayBarColor: {r: 0, g: 0.5294118, b: 1, a: 0.29803923}
+  loginBigReward:
+    StrokeColor: {r: 0.3042841, g: 0.04049486, b: 0.6603774, a: 1}
+    BottomColor: {r: 0.4781988, g: 0.109069064, b: 0.5377358, a: 1}
+    TopColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    DepthColor: {r: 0, g: 0, b: 0, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    DayBarColor: {r: 0, g: 0, b: 0, a: 0}
+  loginRewardDayLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+      type: 2}
+  loginRewardAmountLabel:
+    FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca, type: 2}
+  loginBigRewardDayLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: -6263200432262748202, guid: a114aef74fbe8214f81cd68e67ac22f3,
+      type: 2}
+  loginBigRewardAmountLabel:
+    FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca, type: 2}
+  leaderboardItem:
+    BackgroundColor: {r: 1, g: 0.8392157, b: 0.6, a: 1}
+    OutlineColor: {r: 0.5943396, g: 0.21175605, b: 0.11494303, a: 1}
+  leaderboardDisplay:
+    BackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+    OutlineColor: {r: 0.754717, g: 0.33022934, b: 0.23851903, a: 1}
+  leaderboardItemNameLabel:
+    FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+      type: 2}
+  leaderboardItemScoreLabel:
+    FontColor: {r: 0.25490198, g: 0.101960786, b: 0.07058824, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca, type: 2}
+  leaderboardTag:
+    OutlineColor: {r: 0.41509432, g: 0.21342114, b: 0.21342114, a: 1}
+    BottomColor: {r: 0.4245283, g: 0.32378757, b: 0.20625669, a: 1}
+    TopColor: {r: 0.8301887, g: 0.7121036, b: 0.57564974, a: 1}
+    DepthColor: {r: 1, g: 1, b: 1, a: 1}
+    Label:
+      FontColor: {r: 0.42352945, g: 0.3254902, b: 0.20784315, a: 1}
+      FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+      PresetMaterial: {fileID: 2100000, guid: 695dc83307985064689c3c1550d777ca, type: 2}
+  settingLanguageSelection:
+    BackgroundColor: {r: 0, g: 0, b: 0, a: 0.6}
+    OutlineColor: {r: 0.4339623, g: 0.20323351, b: 0.01842292, a: 1}
+  settingLanguageSelectionLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: 993f793c50cb3ac49b58cd3037ff56d9, type: 2}
+    PresetMaterial: {fileID: 1704766416887933855, guid: 993f793c50cb3ac49b58cd3037ff56d9,
+      type: 2}
+  supportButton:
+    StrokeColor: {r: 0.4039216, g: 0.28235295, b: 0.06666667, a: 1}
+    BottomColor: {r: 0.6698113, g: 0.44446996, b: 0.0473923, a: 1}
+    TopColor: {r: 0.9811321, g: 0.8247642, b: 0.27305093, a: 1}
+    HighlightColor: {r: 1, g: 1, b: 1, a: 0.2901961}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    IconColor: {r: 0.4056604, g: 0.2836047, b: 0.066972226, a: 1}
+  supportButtonLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: -899648937328429203, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5,
+      type: 2}
+  shopTab:
+    StrokeColor: {r: 1, g: 1, b: 1, a: 1}
+    BottomColor: {r: 0.06127626, g: 0.20308185, b: 0.4811321, a: 1}
+    TopColor: {r: 0, g: 0.5803922, b: 1, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    IconColor: {r: 1, g: 1, b: 1, a: 1}
+    DepthColor: {r: 1, g: 1, b: 1, a: 1}
+    TabBorderColor: {r: 0.12726949, g: 0.2493003, b: 0.49056602, a: 1}
+    TabActiveBorderColor: {r: 1, g: 1, b: 1, a: 1}
+    TabLabel:
+      FontColor: {r: 1, g: 1, b: 1, a: 1}
+      FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+      PresetMaterial: {fileID: 2100000, guid: 2bb9603aeb11f2347a1412230a318bb4, type: 2}
+  shopItem:
+    StrokeColor: {r: 0.15294118, g: 0.15294118, b: 0.20784314, a: 1}
+    BottomColor: {r: 0.019607844, g: 0.37254903, b: 0.6313726, a: 1}
+    TopColor: {r: 0.34901962, g: 0.7764706, b: 1, a: 1}
+    DepthColor: {r: 1, g: 1, b: 1, a: 1}
+    NavigatorColor: {r: 1, g: 1, b: 1, a: 1}
+    NameBackground: {r: 1, g: 1, b: 1, a: 0.5882353}
+    PriceBackground: {r: 1, g: 1, b: 1, a: 0.5882353}
+  shopItemNameLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27, type: 2}
+  shopItemPriceLabel:
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27, type: 2}
+  shopItemPriceNegativeLabel:
+    FontColor: {r: 1, g: 0.22745098, b: 0.22745098, a: 1}
+    FontAsset: {fileID: 11400000, guid: a114aef74fbe8214f81cd68e67ac22f3, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 957d971158f02ec41bd53d2a49db4c27, type: 2}
+  shopItemOwnedLabel:
+    FontColor: {r: 0.5882353, g: 0.9921569, b: 0.25490198, a: 1}
+    FontAsset: {fileID: 11400000, guid: 6309dd0d51611d04a8fd26dc7bd6f9e5, type: 2}
+    PresetMaterial: {fileID: 2100000, guid: 91964ca929e2fc441b494249940604a6, type: 2}

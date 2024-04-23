@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8537d71eff384ae2b1cfb105e3a6f3ab, type: 3}
+  m_Name: GameModeInstaller
+  m_EditorClassIdentifier: 
+  modesPrefab:
+  - {fileID: 1959144675350204621, guid: cc19eaffea3e8a5409558c9ef8ad55ba, type: 3}
+  - {fileID: 1959144675350204621, guid: 4ddf162707c50a448978a5c6705c0c28, type: 3}
+  - {fileID: 1959144675350204621, guid: 5d6637d362987664a94756b2d26053ce, type: 3}
+  selectionUIPrefab: {fileID: 7066106707157646339, guid: 6c2659b90c003204aaac9c2a69ca81d4,
+    type: 3}

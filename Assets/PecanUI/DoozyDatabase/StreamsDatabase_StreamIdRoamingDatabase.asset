@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92be87e2fb614ccb922827b47868bc93, type: 3}
+  m_Name: StreamsDatabase_StreamIdRoamingDatabase
+  m_EditorClassIdentifier: 
+  Name: StreamsDatabaseStreamIdRoamingDatabase
+  Database:
+    Items:
+    - Category: DailyLogin
+      Name: Close
+    - Category: DailyLogin
+      Name: Open
+    - Category: DailyLogin
+      Name: Reward
+    - Category: Gameplay
+      Name: Pause
+    - Category: Gameplay
+      Name: RestartRequest
+    - Category: Gameplay
+      Name: RestartResponse
+    - Category: Gameplay
+      Name: Result
+    - Category: Gameplay
+      Name: ResumeRequest
+    - Category: Gameplay
+      Name: ResumeResponse
+    - Category: Gameplay
+      Name: StartRequest
+    - Category: Gameplay
+      Name: StartResponse
+    - Category: Gameplay
+      Name: Tutorial
+    - Category: Input
+      Name: BackButton
+    - Category: MainMenu
+      Name: Gift
+    - Category: MainMenu
+      Name: Leaderboard
+    - Category: MainMenu
+      Name: Request
+    - Category: MainMenu
+      Name: Response
+    - Category: MainMenu
+      Name: Settings
+    - Category: MainMenu
+      Name: Shop
+    - Category: Music
+      Name: Mute
+    - Category: Music
+      Name: Pause
+    - Category: Music
+      Name: Resume
+    - Category: Music
+      Name: Start
+    - Category: Music
+      Name: Stop
+    - Category: Navigate
+      Name: Down
+    - Category: Navigate
+      Name: Left
+    - Category: Navigate
+      Name: Right
+    - Category: Navigate
+      Name: Up
+    - Category: None
+      Name: None
+    - Category: Settings
+      Name: EnableBGM
+    - Category: Settings
+      Name: EnableSFX
+    - Category: Settings
+      Name: Facebook
+    - Category: Settings
+      Name: Language
+    - Category: Settings
+      Name: Support
+    - Category: Settings
+      Name: Twitter
+    - Category: Shop
+      Name: CharacterToggle
+    - Category: Shop
+      Name: CloseButton
+    - Category: Shop
+      Name: EquipItem
+    - Category: Shop
+      Name: PreviewItem
+    - Category: Shop
+      Name: PurchaseItem
+    - Category: Shop
+      Name: ThemeToggle
+    - Category: UIContainer
+      Name: UIView
+    - Category: UISelectable
+      Name: UIButton
+    - Category: UISelectable
+      Name: UIToggle

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba8fcb7ee8e480dbc1c75038ef49390, type: 3}
+  m_Name: GameStateInstaller
+  m_EditorClassIdentifier: 
+  enemyContext: {fileID: 4875767782389046244, guid: 94563434ae013d643a57cd7cbdb78d35,
+    type: 3}
+  playerContext: {fileID: 7049003259508046877, guid: 2a132d4b652031d49adbba29bdb0115f,
+    type: 3}
+  transitContext: {fileID: 3801454179193028894, guid: ddef9890ec1a73943a4734df2585425e,
+    type: 3}
+  processContext: {fileID: 5572041683065916901, guid: 9588b2e923b90cc41992ec6f209da02b,
+    type: 3}
+  mainMenuContext: {fileID: 4275982413164424826, guid: 9f0879b986aedc74e9cf14f9c47ff971,
+    type: 3}
+  terminationContext: {fileID: 4139107892472972309, guid: 88bed86333dc5fe4fb1521b71cfff363,
+    type: 3}
+  initializationContext: {fileID: 8033171484013371048, guid: f0fef404027892649bf33c6531112140,
+    type: 3}
+  reinitializationContext: {fileID: 6550352693942780264, guid: d016a04067d6fc742af01337bd08c49a,
+    type: 3}

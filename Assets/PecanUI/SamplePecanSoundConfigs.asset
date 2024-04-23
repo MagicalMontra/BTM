@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90726238bd32962478b3145b41e1b787, type: 3}
+  m_Name: SamplePecanSoundConfigs
+  m_EditorClassIdentifier: 
+  configs:
+    separator: /
+    rawData:
+    - Key: UIButton
+      Value: {fileID: 11400000, guid: 7e8047afc1d10ff45a0b5e6adc2dab44, type: 2}
+    - Key: UIToggle
+      Value: {fileID: 11400000, guid: 7e8047afc1d10ff45a0b5e6adc2dab44, type: 2}
+    - Key: UIToggle/Settings
+      Value: {fileID: 11400000, guid: 7e8047afc1d10ff45a0b5e6adc2dab44, type: 2}
+    - Key: UIButton/BuyItem
+      Value: {fileID: 11400000, guid: 29bc962f897ed5e4a998090b066d6d76, type: 2}
+    - Key: UIButton/Minus
+      Value: {fileID: 11400000, guid: 3d2bf97600019974394d1f9de67d7c07, type: 2}
+    - Key: UIButton/Plus
+      Value: {fileID: 11400000, guid: 107703a502fe6e8439405e4d8aa0d853, type: 2}
+    - Key: UIPanel/Show
+      Value: {fileID: 11400000, guid: 1df261985ddd9b043ae3bb9d5a4f6093, type: 2}
+    - Key: UIPanel/Hide
+      Value: {fileID: 11400000, guid: b0bab448e0069d5438b6ffba6baf2246, type: 2}
+    - Key: UIButton/ClaimReward
+      Value: {fileID: 11400000, guid: 77742fa54a9af0148a2ab8c25920e3b6, type: 2}
+    - Key: UIButton/Play
+      Value: {fileID: 11400000, guid: 8b5386b0004c0544c9a4fec09cf605e1, type: 2}

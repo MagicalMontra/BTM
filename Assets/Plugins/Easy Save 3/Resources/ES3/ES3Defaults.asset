@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b340139c9e4d054f904d8b452798652, type: 3}
+  m_Name: ES3Defaults
+  m_EditorClassIdentifier: 
+  settings:
+    _location: 0
+    path: SaveFile.es3
+    encryptionType: 0
+    compressionType: 0
+    encryptionPassword: password
+    directory: 0
+    format: 0
+    prettyPrint: 1
+    bufferSize: 2048
+    saveChildren: 1
+    typeChecking: 1
+    safeReflection: 1
+    memberReferenceMode: 0
+    referenceMode: 2
+    serializationDepthLimit: 64
+    assemblyNames:
+    - HotPlay.PecanUI
+    - Zenject
+    - UniTask
+    - AlmostEngine
+    - DOTweenPro.Scripts
+    - ES3
+    - DoozyRuntime
+    - MoreMountains.Feedbacks
+    - hotplay.unity.package.Runtime
+    - Assembly-CSharp-firstpass
+    - UniTask.Linq
+    - StompyRobot.SRF
+    - MoreMountains.Tools
+    - StompyRobot.SRDebugger
+    - Assembly-CSharp
+    - spine-unity
+    - MoreMountains.Feedbacks.URP
+    - Zenject-IntegrationTests
+    - HotPlay.BoosterMath.Core
+    - spine-csharp
+    - MoreMountains.Feedbacks.MMTools
+    - MoreMountains.Feedbacks.NiceVibrations
+    - GameAnalyticsSDK
+    - Eflatun.SceneReference
+    - MoreMountains.Feedbacks.TextMeshPro
+    - UniTask.DOTween
+    - I2.Loc
+    - AlmostEngine.Shared
+    - Beautify.Universal.Runtime
+    - Lofelt.NiceVibrations.Demo
+    - Lofelt.NiceVibrations
+    - DOTween.Modules
+    - HotPlay.QuickMath.Calculation
+    - HotPlay.QuickMath.Analytics
+    - hotplay.unity.package.tests.mock
+    - EnhancedScroller
+    - MoreMountains.Tools.TextMeshPro
+    - HotPlay.Utilities
+    - games.hotplay.sound
+    - UniTask.Addressables
+    - MoreMountains.Tools.Feedbacks
+    - Sirenix.OdinInspector.CompatibilityLayer
+    - UniTask.TextMeshPro
+    - MoreMountains.Tools.Editor
+    - DoozyEditor
+    - I2Editor
+    - AlmostEngine.UltimateScreenshotCreator.Editor
+    - MoreMountains.Feedbacks.Editor
+    - AlmostEngine.SimpleLocalization.Editor
+    - Eflatun.SceneReference.Editor
+    - StompyRobot.SRF.Editor
+    - spine-unity-editor
+    - PPv2URPConverters
+    - StompyRobot.SRDebugger.Editor
+    - Zenject-TestFramework
+    - AlmostEngine.UniversalDevicePreview.Editor
+    - MoreMountains.Tools.Feedbacks.Editor
+    - Sirenix.OdinInspector.CompatibilityLayer.Editor
+    - UniTask.Editor
+    - hotplay.unity.package.Editor
+    - DOTweenPro.EditorScripts
+    - AlmostEngine.Shared.Editor
+    - Sirenix.OdinInspector.Modules.UnityMathematics
+    - AlmostEngine.ExcludeFromBuildTool.Editor
+    - Lofelt.NiceVibrations.Editor
+    - games.hotplay.pecan-ui.editor
+    showAdvancedSettings: 0
+  addMgrToSceneAutomatically: 0
+  autoUpdateReferences: 1
+  addAllPrefabsToManager: 1
+  logDebugInfo: 0
+  logWarnings: 1
+  logErrors: 1

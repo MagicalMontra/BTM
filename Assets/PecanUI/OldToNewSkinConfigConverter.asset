@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a95120e259214a0caf8f184fcc93b117, type: 3}
+  m_Name: OldToNewSkinConfigConverter
+  m_EditorClassIdentifier: 
+  oldSkinConfig: {fileID: 11400000, guid: c09ce0144e6ac8d4d908b03c66436921, type: 2}
+  skinConfig: {fileID: 11400000, guid: fe3e60f4eea96d74e808679835e0774b, type: 2}

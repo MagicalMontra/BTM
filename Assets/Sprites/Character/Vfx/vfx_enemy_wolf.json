@@ -1,0 +1,126 @@
+{
+"skeleton": {
+	"hash": "WIe65uwPof4",
+	"spine": "4.1.17",
+	"x": -157,
+	"y": -161,
+	"width": 315,
+	"height": 323,
+	"images": "",
+	"audio": "C:/2D_Spine/BoosterMath"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "vfx/vfx_enemy_wolf", "parent": "root", "x": 0.5, "y": 100 },
+	{ "name": "vfx/vfx_enemy_wolf02", "parent": "root", "y": -100 }
+],
+"slots": [
+	{ "name": "vfx/vfx_enemy_wolf", "bone": "vfx/vfx_enemy_wolf", "dark": "000000", "attachment": "vfx/vfx_enemy_wolf" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"vfx/vfx_enemy_wolf": {
+				"vfx/vfx_enemy_wolf": {
+					"type": "mesh",
+					"uvs": [ 0.99999, 0.49455, 1, 0.50006, 1, 1, 0, 1, 1.0E-5, 0.50006, 1.0E-5, 0.49552, 0, 0, 1, 0 ],
+					"triangles": [ 4, 1, 2, 3, 4, 2, 4, 0, 1, 0, 6, 7, 5, 6, 0, 4, 5, 0 ],
+					"vertices": [ 1, 1, 157.5, -97.74, 1, 1, 2, 158, 100.48, 1, 1, 2, 158, -61, 1, 1, 2, -157, -61, 1, 1, 2, -157, 100.48, 1, 1, 1, -157.5, -98.05, 1, 1, 1, -157.5, 62, 1, 1, 1, 157.5, 62, 1 ],
+					"hull": 8,
+					"edges": [ 4, 6, 12, 14, 10, 12, 0, 14, 10, 0, 6, 8, 8, 10, 0, 2, 2, 4, 8, 2 ],
+					"width": 315,
+					"height": 323
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"particle_spawn": {
+		"slots": {
+			"vfx/vfx_enemy_wolf": {
+				"rgba2": [
+					{ "light": "ffffff00", "dark": "000000", "curve": "stepped" },
+					{ "time": 0.1667, "light": "ffffff00", "dark": "000000" },
+					{ "time": 0.5, "light": "ffffffff", "dark": "000000", "curve": "stepped" },
+					{ "time": 0.6, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.6667, "light": "ffc955ff", "dark": "ffffff" },
+					{ "time": 0.7, "light": "ffae00ff", "dark": "000000" },
+					{ "time": 0.9667, "light": "ffffff00", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"vfx/vfx_enemy_wolf": {
+				"rotate": [
+					{ "value": -6.75 },
+					{ "time": 0.5, "value": -7.82 },
+					{ "time": 0.6, "value": -2.92 },
+					{ "time": 0.7, "value": -5.4 }
+				],
+				"translatex": [
+					{ "value": 26.55 },
+					{ "time": 0.5, "value": 26.33 },
+					{ "time": 0.6, "value": 40.35 },
+					{ "time": 0.7, "value": 24.95 },
+					{ "time": 0.7333, "value": -21.32 },
+					{ "time": 0.7667, "value": 24.95 },
+					{ "time": 0.8, "value": -12.96 },
+					{ "time": 0.8333, "value": 24.95 },
+					{ "time": 0.8667, "value": -1.92 },
+					{ "time": 0.9, "value": 24.95 }
+				],
+				"translatey": [
+					{ "value": 408.51 },
+					{ "time": 0.5, "value": 362.35 },
+					{ "time": 0.6, "value": 690.53 },
+					{ "time": 0.7, "value": 204.28 },
+					{ "time": 0.8667, "value": 180.34 }
+				],
+				"scale": [
+					{ "time": 0.5 },
+					{ "time": 0.6, "x": 1.929, "y": 1.929 },
+					{ "time": 0.6667, "y": 3.464 },
+					{ "time": 0.7, "x": 1.885, "y": 1.331 },
+					{ "time": 0.7667, "x": 1.208, "y": 1.26 }
+				]
+			},
+			"vfx/vfx_enemy_wolf02": {
+				"rotate": [
+					{ "value": -9 },
+					{ "time": 0.5, "value": -8.21 },
+					{ "time": 0.6, "value": -6.07 },
+					{ "time": 0.7, "value": -4.05 }
+				],
+				"translatex": [
+					{ "value": -34.96 },
+					{ "time": 0.5, "value": -24.07 },
+					{ "time": 0.6, "value": -31.58 },
+					{ "time": 0.7, "value": 7.26 },
+					{ "time": 0.7333, "value": 41.66 },
+					{ "time": 0.7667, "value": 7.26 },
+					{ "time": 0.8, "value": 28.77 },
+					{ "time": 0.8333, "value": 7.26 },
+					{ "time": 0.8667, "value": 25.95 },
+					{ "time": 0.9, "value": 7.26 }
+				],
+				"translatey": [
+					{ "value": 53.91 },
+					{ "time": 0.5, "value": 93.1 },
+					{ "time": 0.6, "value": -93.32 },
+					{ "time": 0.7, "value": 206.91 },
+					{ "time": 0.8667, "value": 227.29 }
+				],
+				"scale": [
+					{ "time": 0.5 },
+					{ "time": 0.6, "x": 1.637, "y": 1.637 },
+					{ "time": 0.6667, "y": 4.435 },
+					{ "time": 0.7, "x": 1.858, "y": 1.331 },
+					{ "time": 0.7667, "x": 1.207, "y": 1.058 }
+				]
+			}
+		}
+	}
+}
+}

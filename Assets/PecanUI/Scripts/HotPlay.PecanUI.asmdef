@@ -1,0 +1,36 @@
+{
+    "name": "HotPlay.PecanUI",
+    "rootNamespace": "HotPlay.PecanUI",
+    "references": [
+        "hotplay.unity.package.Runtime",
+        "DoozyRuntime",
+        "Unity.TextMeshPro",
+        "EnhancedScroller",
+        "UniTask",
+        "UniTask.DOTween",
+        "DOTween.Modules",
+        "DOTweenPro.Scripts",
+        "Eflatun.SceneReference",
+        "games.hotplay.sound",
+        "I2.Loc",
+        "spine-csharp",
+        "spine-unity",
+        "HotPlay.Utilities"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DemiLib.dll",
+        "DOTween.dll",
+        "DOTweenPro.dll",
+        "Sirenix.OdinInspector.Attributes.dll",
+        "Sirenix.Utilities.dll",
+        "Sirenix.OdinInspector.Editor.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

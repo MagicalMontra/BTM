@@ -1,0 +1,83 @@
+﻿Key,Type,Desc,English (United States) [en],French,Italian,German,Spanish (Spain) [es]
+DailyReward/DailyReawardElement_Day,Text,"Example: ""DAY 1""",DAY {[DAY]},Jour {[DAY]},Giorno {[DAY]},Tag {[DAY]},Día {[DAY]}
+DailyReward/DailyReward,Text,,Daily Reward,Récompense Quotidienne,Ricompensa Quotidiana,Tägliche Belohnung,Recompensa Diaria
+DailyReward/DailyRewardElement_Amount,Text,"Amount of reward player will gain. Example ""x 150""",x {[AMOUNT]},x {[AMOUNT]},x {[AMOUNT]},x {[AMOUNT]},x {[AMOUNT]}
+Difficulty/Easy,Text,,Easy,Facile,Facile,Einfach,Fácil
+Difficulty/Hard,Text,,Hard,Difficile,Difficile,Schwer,Dura
+Difficulty/Normal,Text,,Medium,Moyenne,Medio,Mittel,Medio
+Difficulty/Select,Text,,Choose Difficulty,Choisis la difficulté,Scegli la difficoltà,Schwierigkeitsgrad Wählen,Elige la dificultad
+Font/FONT_MPLUS_BLACK,TextMeshPFont,,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF
+Font/FONT_MPLUS_BOLD,TextMeshPFont,,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF
+Font/FONT_MPLUS_EXTRABOLD,TextMeshPFont,,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF
+Font/MPLUSROUNDED1C-BLACK SDF,TextMeshPFont,,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF,MPLUSROUNDED1C-BLACK SDF
+Font/MPLUSROUNDED1C-BOLD SDF,TextMeshPFont,,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF,MPLUSROUNDED1C-BOLD SDF
+Font/MPLUSROUNDED1C-EXTRABOLD SDF,TextMeshPFont,,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF,MPLUSROUNDED1C-EXTRABOLD SDF
+Generic/CONGRATULATIONS!,Text,,CONGRATULATIONS!,Félicitations!,Congratulazioni!,Glückwünsch!,¡Felicidades!
+Generic/Cancel,Text,,Cancel,Annuler,Annulla,<size=62>Abbrechen</size>,<size=68>Cancelar</size>
+Generic/Claim,Text,,Claim,Réclamer,Reclamo,<size=92>Einfordern</size>,Reclamar
+Generic/Close,Text,,Close,Fermer,Chiudere,<size=66>Schließen</size>,Cerca
+Generic/CollectReward,Text,,Collect Reward,<size=40>Récolter votre Récompense</size>,<size=40>Raccogliere La Ricompensa</size>,Belohnung Abholen,Recoger La Recompensa
+Generic/Gifts,Text,,Gifts,Cadeaux,I Regali,Geschenke,Regalos
+Generic/HighScores,Text,,High Scores,Meilleurs Scores,Miglior Punteggio,Highscore,Puntuaciones Altas
+Generic/Home,Text,,Home,Accueil,Casa,Home,Hogar
+Generic/Pause,Text,,Pause,Pause,Pausa,Pause,Pausa
+Generic/Play,Text,,Play,Jouer,Giocare A,Spielen,<size=91>Desempeñar</size>
+Generic/PlayAgain,Text,,Play Again,Rejouer,<size=72>Gioca Di Nuovo</size>,<size=66>Nochmal Spielen</size>,<size=72>Juega De Nuevo</size>
+Generic/Restart,Text,,Restart,Redémarrer,Ricomincia,Neustart,Reiniciar
+Generic/Resume,Text,,Resume,Continuer,Continua,<size=92>Fortfahlen</size>,Seguir
+Generic/Tutorial,Text,,Tutorial,Tutoriel,Tutorial,Tutorial,Tutorial
+Generic/YourHighScore,Text,,Your high score,Votre meilleur score,Il tuo punteggio più alto,Ihr Highscore,tu puntuación más alta
+Language/English,Text,,English,Anglais,Inglese,Englisch,Inglés
+Language/French,Text,,French,Français,Francese,Französisch,Francés
+Language/German,Text,,German,Allemand,Tedesco,Deutsch,Alemán
+Language/Italian,Text,,Italian,Italien,Italiano,Italienisch,Italiano
+Language/Spanish,Text,,Spanish,Espagnol,Spagnolo,Spanisch,Español
+Leaderboard/Leaderboard,Text,,Leaderboard,Classement,Classifica,Rangliste,Clasificación
+Leaderboard/RankUpAnimText,Text,,+{[RANK]},+{[RANK]},+{[RANK]},+{[RANK]},+{[RANK]}
+Result/GameOver,Text,,Game Over,Partie Terminée,Gioco Finito,Spiel Vorbei,Juego Terminado
+Result/NewHighScore!,Text,,New High Score!,Nouveau Record!,Nuovo Record!,Neuer Highscore,¡Nuevo Record!
+Result/YouEarned,Text,,You Earned,Vous avez accumulez,Hai Guadagnato,Sie verdienen,Usted Ganó
+Result/YourScore,Text,,Your Score,Votre Score,Il Tuo Punteggio,Ihre Punktzahl,Tu Puntuación
+Settings/Audio,Text,,Audio,Audio,Audio,Audio,Audio
+Settings/Facebook,Text,,Facebook,Facebook,Facebook,Facebook,Facebook
+Settings/Language,Text,,Language,Langue,Linguaggio,Sprache,Idioma
+Settings/Music,Text,,Music,Musique,Musica,Musik,Música
+Settings/Settings,Text,,Settings,Paramètres,Impostazioni,Einstellungen,Ajustes
+Settings/Sounds,Text,,Sounds,Sons,Suoni,Sound,Sonidos
+Settings/Support,Text,,Support,Support,Sostegno,Support,Apoyo
+Settings/Support & Social Media,Text,,Support & Social Media,Assistance Et Médias Sociaux,Supporto E Social Media,Support & Soziale Medien,Apoyo Y Redes Sociales
+Settings/Terms and Privacy Policy,Text,,Terms and Privacy Policy,Termes et Politique de Confidentialité,Termini e Informativa sulla privacy,Bedingungen und Datenschutzbestimmungen,Términos y Política de Privacidad
+Settings/Twitter,Text,,Twitter,Twitter,Twitter,Twitter,Gorjeo
+Shop/Characters,Text,,Characters,Personnages,Personaggi,Charaktere,Caracteres
+Shop/ITEM IN-USE,Text,,Item In-Use,En cours d'utilisation,Oggetto In Uso,Gegenstan in Gebrauch,Artículo En Uso
+Shop/Owned,Text,,Owned,<size=56>En possession</size>,Posseduto,Im Besitz,Propiedad
+Shop/Shop,Text,,Shop,Magasin,Negozio,Shop,Tienda
+Shop/Themes,Text,,Themes,Thèmes,Temi,Themen,Temas
+Shop/UNLOCK ITEM?,Text,,UNLOCK ITEM?,Déverrouiller?,Sbloccare L'oggetto?,Item freischalten?,Desbloquear Elemento?
+Shop/USE ITEM NOW?,Text,,USE ITEM NOW?,Utiliser maintenant?,Utilizzare L'oggetto Ora?,Item jetzt verwenden?,Usar Artículo Ahora?
+Shop/Unlock,Text,,Unlock,<size=45>Déverrouiller</size>,<size=62>Sbloccare</size>,<size=50>Freischalten</size>,<size=50>Desbloquear</size>
+Shop/UseNow,Text,,Use Now,Utiliser,<size=59>Usalo Ora</size>,<size=59>Verwenden</size>,<size=59>Usar Ahora</size>
+ShopItems/Character01,Text,,Humble Warrior,Humble Guerrier,Swordsman,Demütiger Krieger,Swordsman
+ShopItems/Character02,Text,,Lady Luck,Dame Chance,Archer Elf,Lady Luck,Archer Elf
+ShopItems/Character03,Text,,Mage Apprentice,Apprenti Mage,Mage,Magierlehrling,Mage
+ShopItems/Character04,Text,,Stray Raider,Raider Errant,Thief Cat,Wandernder Räuber,Thief Cat
+ShopItems/Character05,Text,,Sister Druid,Sœur Druidesse,Shaman,Druidenschwester,Shaman
+ShopItems/Character06,Text,,Dark Baron,Baron de l'ombre,Dark Knight,Schattenbaron,Dark Knight
+ShopItems/Character07,Text,,Shade Master,Maître des Ténèbres,Warlock,Meister der Dunkelheit,Warlock
+ShopItems/Character08,Text,,Divine Soul,Ame Divine,Valkyrie,Göttliche Seele,Valkyrie
+ShopItems/Theme01,Text,,Greenwood,Bois Vert,Forest,Grünes Holz,Forest
+ShopItems/Theme02,Text,,Lost Caves,Grottes Perdues,Cave,Verlorene Höhlen,Cave
+ShopItems/Theme03,Text,,Surf Patrol,Patrouille de Surf,Beach,Surf-Patrouille,Beach
+ShopItems/Theme04,Text,,Red Desert,Désert Rouge,Tundra,Rote Wüste,Tundra
+ShopItems/Theme05,Text,,Barren Lands,Terres Arides,Curse Land,Unfruchtbares Land,Curse Land
+ShopItems/Theme06,Text,,Fiery Gorge,Ravin Enflammé,Volcano,Flammende Schlucht,Volcano
+ShopItems/Theme07,Text,,High Ground,Terrains Elevés,North Mountain,Erhöhtes Gelände,North Mountain
+ShopItems/Theme08,Text,,Snow Caps,Capsules de Neige,Ice Field,Schneekappen,Ice Field
+ShopItems/Theme09,Text,,The Stronghold,La Forteresse,Castle,Die Hochburg,Castle
+ShopItems/Theme10,Text,,Mushroom Spread,Champ de Champignons,Secret Forest,Pilzfeld,Secret Forest
+Tutorials/Tutorial01,Text,,Answer questions within the time limit. Answer quickly to get coins!,Réponds aux questions dans le temps limite. Répond rapidement pour obtenir des pièces!,Answer the question within the time limit. For a quick answer you will get a coin,"Beantworte die Fragen innerhalb des Zeitlimits. Antworte schnell, um Münzen zu bekommen!",Answer the question within the time limit. For a quick answer you will get a coin
+Tutorials/Tutorial02,Text,,Press the arrow button with the correct answer.,Appuie la touche fléchée qui a la bonne réponse.,Pick an answer using the arrow buttons with corresponding numbers,Drücke die Pfeiltaste mit der richtigen Antwort.,Pick an answer using the arrow buttons with corresponding numbers
+Tutorials/Tutorial03,Text,,You can receive random boosters instead of coin. Don’t miss them!,Vous pouvez recevoir des boosters à la place de pièces. Ne les ratez pas!,You can receive a random booster instead of a coin. Don’t miss it!,Du kannst Booster anstelle von Münzen erhalten. Verpass sie nicht!,You can receive a random booster instead of a coin. Don’t miss it!
+Tutorials/Tutorial04,Text,,Slows down time by 30% for a while.,Ralentit le temps de 30% pour une courte periode.,Temporary slows down the time gauge by 30%,Verlangsamt die Zeit um 30% für eine kurze Zeit.,Temporary slows down the time gauge by 30%
+Tutorials/Tutorial05,Text,,Correct answers fully recover the time gauge.,Les bonne réponses remplit la jauge de temps.,Correct answer fully recovers time while the booster is in use.,Richtige Antworten stellen die Zeitanzeige vollständig wieder her.,Correct answer fully recovers time while the booster is in use.
+Tutorials/Tutorial06,Text,,correct answer award you 10% more points.,Une réponse correcte vous accorde 10% de points supplémentaires.,Temporary increases score gain by 10%,Für jede richtige Antwort bekommst du 10% extra Punkte.,Temporary increases score gain by 10%

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf0fc48e81a2bd240ae7be96ff704953, type: 3}
+  m_Name: SamplePecanConfigs
+  m_EditorClassIdentifier: 
+  sceneLoadAnimation: {fileID: 3314102353140564575, guid: 5e864ff23d0113b4596ba82c1aa66185, type: 3}
+  dailyLogin: {fileID: 11400000, guid: ed368a03607b1394b81f9a5aaeebad11, type: 2}
+  defaultImpressionTextures:
+  - Ratio: 10
+    DefaultTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  - Ratio: 15
+    DefaultTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  isEnableCharacterTab: 1
+  isEnableThemeTab: 1
+  defaultShopCategory: 0
+  shopTabCharacterImage: {fileID: 0}
+  shopTabThemeImage: {fileID: 0}
+  shopTabThemeLabel: 
+  shopTabCharacterLabel: 
+  showFacebookButton: 1
+  facebookURL: https://www.facebook.com/
+  showTwitterButton: 1
+  twitterURL: https://twitter.com/
+  showSupportButton: 1
+  supportURL: https://www.instagram.com/
+  privacyPolicyURL: https://www.google.com/
+  tutorialData:
+  - Group: 
+    DefaultData:
+      TutorialSprite: {fileID: 0}
+      TutorialKey: 
+    PlatformData:
+    - ControlType: 0
+      Data:
+        TutorialSprite: {fileID: 0}
+        TutorialKey: 
+    - ControlType: 1
+      Data:
+        TutorialSprite: {fileID: 0}
+        TutorialKey: 
+    - ControlType: 2
+      Data:
+        TutorialSprite: {fileID: 0}
+        TutorialKey: 
+  - Group: use_item
+    DefaultData:
+      TutorialSprite: {fileID: 0}
+      TutorialKey: 
+    PlatformData: []
+  - Group: use_item
+    DefaultData:
+      TutorialSprite: {fileID: 0}
+      TutorialKey: 
+    PlatformData: []
+  languages:
+  - languageName: Language/English
+    languageCode: en
+  - languageName: Language/French
+    languageCode: fr
+  - languageName: Language/Italian
+    languageCode: it
+  - languageName: Language/German
+    languageCode: de
+  - languageName: Language/Spanish
+    languageCode: es
+  tutorialCategory: Tutorials/
+  shopItemCategory: ShopItems/
+  resultLeaderboardType: 1
+  leaderboardDataProvider:
+    leaderboardData:
+    - {fileID: 11400000, guid: 14418163b93114b4e854e5f029f9bf88, type: 2}
+    - {fileID: 11400000, guid: ddced7a309e5245418155d0e2b99e497, type: 2}
+    - {fileID: 11400000, guid: 700dcbb27d2793c4c839503a03477f98, type: 2}
+    - {fileID: 11400000, guid: 21cdf2816811d254b8b471d928fe8654, type: 2}
+    - {fileID: 11400000, guid: b604f8b3563f4454faa3e3dac32123d4, type: 2}
+    - {fileID: 11400000, guid: df70aede546725c4f86fc11732f232e4, type: 2}
+    - {fileID: 11400000, guid: c7be80250a274834cb63e0117d2bf263, type: 2}
+    - {fileID: 11400000, guid: f6eddc4d8a9262346be60afd38450ab0, type: 2}
+    - {fileID: 11400000, guid: 1bff57487e9f208449e435c6c523b2d5, type: 2}
+    - {fileID: 11400000, guid: 7e7a2ea5071b5b449a85fa1dad95a2b7, type: 2}
+    - {fileID: 11400000, guid: 1c42583957eb5d749a0f9037cf1816d3, type: 2}
+    - {fileID: 11400000, guid: a2aeeae23008acf478e6ca685e7be5ca, type: 2}
+    - {fileID: 11400000, guid: c42834af1040217428e721366e1556e9, type: 2}
+    - {fileID: 11400000, guid: 8cba8bc0c9f1eb847a5eec43299fbbae, type: 2}
+    - {fileID: 11400000, guid: d9283b66ed5c19449a6c326e0589b90b, type: 2}
+    - {fileID: 11400000, guid: 2680460336c72014abb7a3b4614e314c, type: 2}
+    - {fileID: 11400000, guid: 2b0b5b94cb6de284abb7b4f81f0a0ff0, type: 2}
+    - {fileID: 11400000, guid: d71180f710e90dc4bbb44c8b6947e88b, type: 2}
+    - {fileID: 11400000, guid: a7e27daf363d2614b8eb861bc4f9463a, type: 2}
+    - {fileID: 11400000, guid: 400592597f3fa9846b9f9094b1238c17, type: 2}
+    - {fileID: 11400000, guid: 9bd3154d167f2fc418fc47203dbf5c73, type: 2}
+    - {fileID: 11400000, guid: 74d16a991b144304e8d99fab679efc3b, type: 2}
+    - {fileID: 11400000, guid: cb5c5f9330419c648b6850ec6d3602c7, type: 2}
+    - {fileID: 11400000, guid: d422d0bfb80f07c4d80521c3bcb0f20e, type: 2}
+    - {fileID: 11400000, guid: 4906ecdd67741544690f8d157741a66b, type: 2}
+    - {fileID: 11400000, guid: 19828082ad2c3354b9f67af10c0bab7d, type: 2}
+    - {fileID: 11400000, guid: 3cefc903afd6e1140be1a679f4d4611c, type: 2}
+    - {fileID: 11400000, guid: b99be341506376a4394ccf4ea484656b, type: 2}
+    - {fileID: 11400000, guid: 022bd5439e0521146818ea6c0f83435d, type: 2}
+    - {fileID: 11400000, guid: cff0c0f376c960e4391e53ddfca33f6d, type: 2}
+    - {fileID: 11400000, guid: 759fb118f065e1a419107b8a872e0cf8, type: 2}
+    - {fileID: 11400000, guid: f2f7f57dd29b8b54688f087d13766c2e, type: 2}
+    - {fileID: 11400000, guid: 86a796180533721419035960c7a61a0d, type: 2}
+    - {fileID: 11400000, guid: 76bf52d6f2c868b4ca9e5e054f0e045f, type: 2}
+    - {fileID: 11400000, guid: 8c70c6e9b8fff384ebf7238dc50c5e04, type: 2}
+    - {fileID: 11400000, guid: 9e59c479caa12cd4f9901454aa450eeb, type: 2}
+    - {fileID: 11400000, guid: 2981451c32a095540b18ba64d45f6744, type: 2}
+    - {fileID: 11400000, guid: 204c07e203ac7a44fb1c1b7fd6de4637, type: 2}
+    - {fileID: 11400000, guid: 0fa9f5f46f0da0943902a53bd085956b, type: 2}
+    - {fileID: 11400000, guid: 219a591a6fb8b7f4d9f5da68ee5c0a1d, type: 2}
+    - {fileID: 11400000, guid: af12c74ab5282ae46ad258d02d9420d7, type: 2}
+    - {fileID: 11400000, guid: c43b327a09589634eb1f8dc57ab1bd35, type: 2}
+    - {fileID: 11400000, guid: 0c77576d71706f548a7e56e97877c967, type: 2}
+    - {fileID: 11400000, guid: d776a07d0d82a1345a7924b09f5154d4, type: 2}
+    - {fileID: 11400000, guid: fc0c238f6a9914943a7fdcec1157166c, type: 2}
+    - {fileID: 11400000, guid: 1affcc5b184a07540b3b8cc491cea773, type: 2}
+    - {fileID: 11400000, guid: 34fd136e45964b043839a1be12197bba, type: 2}
+    - {fileID: 11400000, guid: 0388f62657cdf374c9fa27a96a8cc1cc, type: 2}
+    - {fileID: 11400000, guid: 704f3a1cb9f91544588b0f17f440bf7c, type: 2}
+    playerName: You
+    playerAvatarSprite: {fileID: 21300000, guid: 6b7eae174ec124de2bd02d8073658baf, type: 3}
+    playerCurrentHighScoreTest: 0
+  gameplayUIPrefab: {fileID: 0}
+  gameTitlePrefab: {fileID: 0}
+  scrollSensitivity: 100
